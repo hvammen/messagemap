@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: verdana;
+	font-size: 10px;
+}
+#top {
+	width: 100%;
+	background: #e1effd;
+	height: 60px;
+}
+#top h1 {
+	padding: 10px;
+	margin-left: 120px;
+}
+.hr1 {
+	background-color: #f0f7ff;
+	display: block;
+	width: 100%;
+	height: 4px;
+}
+.hr2 {
+	border-top: solid 1px #a1a1a1;
+	padding: 4px;
+	margin-top: 6px;
+}
+#page {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#profile {
+	
+}
+#profile #picture {
+	background-color: #f2f2f2;
+	padding: 4px;
+	float: right;
+	top: -75px;
+	left: -30px;
+	position: relative;
+}
+
+#profile #header {
+	padding: 8px;
+}
+
+#profile #about {
+	border-top: solid 3px #e1effd;
+	padding: 6px 0px 6px 0px;
+	
+}
+#profile #settings {
+	float:left;
+	margin-top: 10px;
+}
+#profile #settings .tab {
+	background-color: #e3f2ff;
+	font-weight: bold;
+	padding: 6px;
+	color: #000000;
+}
+#profile #settings table {
+	margin-top: 5px;
+}
+#profile #settings table th {
+	margin-right: 10px;
+	font-weight: normal;
+	text-align: left;
+	color: #a0a0a0;
+	padding: 5px;
+}
+input {
+	border: solid 1px silver;
+	padding: 4px;
+	font-size:10px;
+}
