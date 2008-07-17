@@ -1,0 +1,113 @@
+User
+  - user_id : integer
+  - user_name : string
+  - user_username : string
+  - user_password : string
+  - user_email : string
+  - user_about : string
+  - user_website : string
+  - user_phone : string
+  - user_sex : string, enum(m/f)
+  - user_birth : datetime
+  Primarykey(user_id)
+  Unique(user_username)
+    
+UserTag
+  - usertag_name : string
+  - user_id : integer
+  - usertag_type : string, enum(like/dislike)
+  Primarykey(usertag_name, user_id, usertag_type)
+
+UserFriend
+  - userfriend_id_me : integer
+  - userfriend_id_myfriend : integer
+  - userfriend_type : string, enum(trusted, normal)
+  Primarykey(userfriend_id_me, userfriend_id_myfriend)
+  
+UserPrivacy
+  - user_id : integer
+  - userprivacy_friend_type : string, enum(trusted, friend, everyone)
+  - userprivacy_value : string, enum(public, nearby, hidden)
+  
+UserQuietTime
+  - user_id : integer
+  - userquiettime_start : time
+  - userquiettime_end : time
+  - userquiettime_timezone : integer
+  - userquiettime_enabled : boolean
+
+UserDevice
+  - user_id : integer
+  - userdevice_enabled : boolean
+  - userdevice_device_type : string, enum(email, twitter)
+  - userdevice_username : string
+  - userdevice_password : string
+  - userdevice_msglimit : integer
+
+UserDeviceMsgType
+  - user_id : integer
+  - userdevicemsgtype_enabled : boolean
+  - userdevicemsgtype_device_type : string, enum(email, twitter)
+  - userdevicemsgtype_message_type : string, enum(usermsg, areamsg, mention, friendship)
+
+UserMsg
+  - user_id_me : integer
+  - user_id_myfriend : integer
+  - usermsg_message : text
+  - usermsg_created : datetime
+  Primarkey(user_id_me, user_id_myfriend, usermsg_message, usermsg_created)
+
+Area
+  - area_id : integer
+  - area_user_id : integer
+  - area_point : point, OpenGIS(long, lat)
+  - area_enabled : boolean
+  Primarkey(area_id)
+  
+AreaOfficer
+  - area_id : integer
+  - user_id : integer
+  Primarkey(area_id, user_id)
+
+AreaTag
+  - tag_name : string
+  - area_id : integer
+  Primarykey(tag_name, area_id)
+
+AreaSubscription
+  - areasubscription_name : string
+  - area_id : integer
+  - user_id : integer
+  - areasubscription_circle : circle, OpenGIS(long, lat, rad)
+  - areasubscription_rating : integer (0=unknown,1=going there,2=been there,3=recently there,4=often there,5=living there)
+  - areasubscription_notify : boolean
+  Primarykey(areasubscriptiont_name, area_id, user_id)
+
+AreaInfo
+  - area_id : integer
+  - areainfo_name : string
+  - user_id : integer
+  - areainfo_value_str : string
+  - areainfo_value_url : string
+  - areainfo_value_int : integer
+  Primarykey(area_id, areainfo_name, user_id)
+  
+AreaMsg
+  - areamsg_id : integer
+  - areamsg_thread_id : integer
+  - user_id : integer
+  - area_id : integer
+  - areamsg_message : text
+  - areamsg_created : datetime
+  Primarykey(areamsg_id)
+  Unique(areamsg_thread_id, user_id, area_id, areamsg_message, areamsg_created)
+
+Tag
+  - tag_name : string
+  Primarykey(tag_name)
+  
+TagCategory
+  - tag_name_parent : string
+  - tag_name_child : string
+  Primarykey(tag_name_parent, tag_name_child)
+  

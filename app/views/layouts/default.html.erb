@@ -1,11 +1,30 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>MessageMap v0.1</title>
 	<%=stylesheet_link_tag "default", :media => "screen" %>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAdCRnwDhkKcBpnYCZjVDV7hTxF_IEtorRKYcbuqPphDEb1SqCMxSngYq_eHgXn9KbJT9e6QqRjyPEPA"
+      type="text/javascript"></script>
+    <script type="text/javascript">
+
+    //<![CDATA[
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+        map.setCenter(new GLatLng(62, 10), 5);
+
+     	map.addControl(new GLargeMapControl());
+     	map.addControl(new GMapTypeControl());
+
+      }
+    }
+
+    //]]>
+    </script>
 </head>
-<body>
+<body onload="load();" onunload="GUnload();">
 <div id="top">
 	<h1>MessageMap</h1>
 </div>

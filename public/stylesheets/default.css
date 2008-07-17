@@ -38,19 +38,13 @@ body {
 	background-color: #f2f2f2;
 	padding: 4px;
 	float: right;
-	top: -75px;
+	top: -20px;
 	left: -30px;
 	position: relative;
 }
 
 #profile #header {
-	padding: 8px;
-}
-
-#profile #about {
-	border-top: solid 3px #e1effd;
-	padding: 6px 0px 6px 0px;
-	
+	margin-top:20px;
 }
 #profile #settings {
 	float:left;
@@ -76,4 +70,18 @@ input {
 	border: solid 1px silver;
 	padding: 4px;
 	font-size:10px;
+}
+.tabs_2 {
+	width: 113px;
+	background-color: #e1effd;
+	background-image: url('/images/corner_2.png');
+	background-repeat: no-repeat;
+}
+.tabs_2 h1 {
+	font-size: 15px;
+	text-align: center;
+	padding-top: 3px;
+}
+.tabs_underline  {
+	border-bottom: solid 2px #e1effd;
 }
