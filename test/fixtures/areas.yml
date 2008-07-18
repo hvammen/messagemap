@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  area_user_id: 1
+  area_point: MyString
+  area_enabled: false
+
+two:
+  area_user_id: 1
+  area_point: MyString
+  area_enabled: false

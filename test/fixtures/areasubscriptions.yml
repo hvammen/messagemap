@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  areasubscription_name: MyString
+  area_id: 1
+  user_id: 1
+  areasubscription_circle: MyString
+  areasubscription_rating: 1
+  areasubscription_notify: false
+
+two:
+  areasubscription_name: MyString
+  area_id: 1
+  user_id: 1
+  areasubscription_circle: MyString
+  areasubscription_rating: 1
+  areasubscription_notify: false

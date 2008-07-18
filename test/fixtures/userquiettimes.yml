@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_id: 1
+  userquiettime_start: 2008-07-18 02:08:58
+  userquiettime_end: 2008-07-18 02:08:58
+  userquiettime_timezone: 1
+  userquiettime_enabled: false
+
+two:
+  user_id: 1
+  userquiettime_start: 2008-07-18 02:08:58
+  userquiettime_end: 2008-07-18 02:08:58
+  userquiettime_timezone: 1
+  userquiettime_enabled: false

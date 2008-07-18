@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_id: 1
+  userdevicemsgtype_enabled: false
+  userdevicemsgtype_device_type: MyString
+  userdevicemsgtype_message_type: MyString
+
+two:
+  user_id: 1
+  userdevicemsgtype_enabled: false
+  userdevicemsgtype_device_type: MyString
+  userdevicemsgtype_message_type: MyString

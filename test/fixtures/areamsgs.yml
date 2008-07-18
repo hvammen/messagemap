@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  areamsg_id: 1
+  areamsg_thread_id: 1
+  user_id: 1
+  area_id: 1
+  areamsg_message: MyText
+
+two:
+  areamsg_id: 1
+  areamsg_thread_id: 1
+  user_id: 1
+  area_id: 1
+  areamsg_message: MyText
