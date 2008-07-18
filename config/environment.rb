@@ -51,7 +51,7 @@ Rails::Initializer.run do |config|
     :session_key => '_messagemap_session',
     :secret      => 'b13436554f5c64a72dac918801a47d374ed7cc0329455c17f332553f7a8b243e86e192cfcb7388ea18c510d71d778576d2851d4916ec74132531d9aaf8fe5e0e'
   }
-
+  
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information
   # (create the session table with "rake db:sessions:create")
@@ -64,4 +64,5 @@ Rails::Initializer.run do |config|
 
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector
+  require 'composite_primary_keys'
 end

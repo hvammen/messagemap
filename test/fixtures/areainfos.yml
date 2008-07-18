@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  area_id: 1
+  areainfo_name: MyString
+  user_id: 1
+  areainfo_value_str: MyString
+  areainfo_value_url: MyString
+  areainfo_value_int: 1
+
+two:
+  area_id: 1
+  areainfo_name: MyString
+  user_id: 1
+  areainfo_value_str: MyString
+  areainfo_value_url: MyString
+  areainfo_value_int: 1
