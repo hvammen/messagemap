@@ -1,1 +1,14 @@
-Hei og velkommen til MessageMap
+======== MessageMap INFO&URLS ===============
+
+
+1. for å bruke flere Primary Keys:
+ http://compositekeys.rubyforge.org/
+
+2. litt diverese om lagacy schemas:
+ http://wiki.rubyonrails.org/rails/pages/HowToUseLegacySchemas
+
+3. for å installere postgresql på ubuntu:
+ http://hocuspokus.net/2007/11/05/install-postgresql-on-ubuntu-710/
+
+4. for å installere postgresql med rails på ubuntu:
+ http://myubuntusetup.blogspot.com/2007/05/set-up-ruby-on-rails-with-postgresql.html
