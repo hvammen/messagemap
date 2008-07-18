@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  userfriend_id_me: 1
+  userfriend_id_myfriend: 1
+  userfriend_type: MyString
+
+two:
+  userfriend_id_me: 1
+  userfriend_id_myfriend: 1
+  userfriend_type: MyString
