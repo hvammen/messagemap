@@ -14,9 +14,9 @@ En samtale gjøres da slik:
 @sanderm  sender: msg BOT: Noen som vet om en feet #pub i L:hytta
 
 Meldingen vil da bli vist til alle som er i Kristiansand området med en radius på 10km:
-@stianpr fra BOT: 12321@sanderm Noen som vet om en feet #pub i L:hjemme (10km)
+@stianpr fra BOT: sanderm Noen som vet om en feet #pub i L:hjemme (10km)
 
-@stianpr sender: msg BOT 12321 Det er et kult sted med mye liv like ved togstasjonen L:feet_pub=Markens gate 190
+@stianpr sender: msg BOT sanderm L:hjemme Det er et kult sted med mye liv like ved togstasjonen L:feet_pub=Markens gate 190
 
 Unngå spam
 For å unngå spam tenkte jeg at man ikke sender meldinger fra en sirker til en annen der radiusen har en veldig stor differanse.
@@ -59,10 +59,8 @@ Google maps
 Apache
 Git (Versons kontroll system, ala svn)
 Grafisk programerings verktøy?
-Ticket system?
-Timeliste?
-Reverse geocoding med google maps:
-http://tinyurl.com/628w9p
+Trac (Ticket system)
+Task assignment system(Time liste)?
 
 Data
 (Gjelder å samle så mye lokasjons basert informasjon som mulig)
@@ -80,7 +78,10 @@ Begrensning
 Vi må finne en begrensning i prosjektet slik at vi får en god funksjonalitet uten å jobbe alt for mye med det.
 
 
-
+Privacy
+Folk skal kunne sette punkter til privat, public og "tilgjengelig i nærheten".
+Hvis noen har CA. like store sirkler og de overlapper, vil da punktet bli vist hos andre der man selv har "tilgjengelig i nærheten" 
+setting. 
 
 Referanser
 http://www.programmableweb.com/mashup/ - Eksempler på mange mashups
@@ -91,3 +92,6 @@ http://apps.facebook.com/mapfriends/ (Integrere med facebook?)
 http://postgis.refractions.net/documentation/
 http://www.dinside.no/php/oko/bensin/vis_prisliste.php?region=2 (Norge bensinpriser)
 http://gasbuddy.com/ (Amerikanske bensinpriser)
+http://www.3rdcrust.com/search/searchmap.html (google maps med plassering av sirkler)
+
+http://tinyurl.com/628w9p (Reverse geocoding med google maps)
