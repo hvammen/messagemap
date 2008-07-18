@@ -9,6 +9,7 @@ User
   - user_phone : string
   - user_sex : string, enum(m/f)
   - user_birth : datetime
+  - user_privacy : string
   Primarykey(user_id)
   Unique(user_username)
     
@@ -16,7 +17,7 @@ UserTag
   - usertag_name : string
   - user_id : integer
   - usertag_type : string, enum(like/dislike)
-  Primarykey(usertag_name, user_id, usertag_type)
+  Primarykey(usertag_name, user_id)
 
 UserFriend
   - userfriend_id_me : integer
@@ -26,36 +27,42 @@ UserFriend
   
 UserPrivacy
   - user_id : integer
+  - userprivacy_message_type : string
   - userprivacy_friend_type : string, enum(trusted, friend, everyone)
   - userprivacy_value : string, enum(public, nearby, hidden)
+  Primarykey(user_id, userprivacy_message_type, userprivacy_friend_type)
   
 UserQuietTime
   - user_id : integer
-  - userquiettime_start : time
-  - userquiettime_end : time
+  - userquiettime_start : datetime
+  - userquiettime_end : datetime
   - userquiettime_timezone : integer
+  - userquiettime_type : string, enum(dayly, weekly, monthly)
   - userquiettime_enabled : boolean
+  Primarykey(user_id, userquiettime_start, userquiettime_end, userquiettime_timezone, userquiettime_type)
 
 UserDevice
   - user_id : integer
-  - userdevice_enabled : boolean
   - userdevice_device_type : string, enum(email, twitter)
   - userdevice_username : string
   - userdevice_password : string
   - userdevice_msglimit : integer
+  - userdevice_enabled : boolean
+  Primarykey(user_id,userdevice_device_type)
 
 UserDeviceMsgType
   - user_id : integer
-  - userdevicemsgtype_enabled : boolean
   - userdevicemsgtype_device_type : string, enum(email, twitter)
   - userdevicemsgtype_message_type : string, enum(usermsg, areamsg, mention, friendship)
+  - userdevicemsgtype_enabled : boolean
+  Primarykey(user_id, userdevicemsgtype_device_type, userdevicemsgtype_message_type)
 
 UserMsg
-  - user_id_me : integer
-  - user_id_myfriend : integer
+  - user_id_from : integer
+  - user_id_to : integer
   - usermsg_message : text
   - usermsg_created : datetime
-  Primarkey(user_id_me, user_id_myfriend, usermsg_message, usermsg_created)
+  Primarkey(user_id_from, user_id_to, usermsg_message, usermsg_created)
 
 Area
   - area_id : integer
@@ -81,16 +88,17 @@ AreaSubscription
   - areasubscription_circle : circle, OpenGIS(long, lat, rad)
   - areasubscription_rating : integer (0=unknown,1=going there,2=been there,3=recently there,4=often there,5=living there)
   - areasubscription_notify : boolean
-  Primarykey(areasubscriptiont_name, area_id, user_id)
+  Primarykey(area_id, user_id)
 
 AreaInfo
   - area_id : integer
-  - areainfo_name : string
+  - areainfo_name : string (Skal denne kolonnen ha en egen tabell?)
   - user_id : integer
   - areainfo_value_str : string
   - areainfo_value_url : string
   - areainfo_value_int : integer
   Primarykey(area_id, areainfo_name, user_id)
+
   
 AreaMsg
   - areamsg_id : integer
@@ -98,16 +106,18 @@ AreaMsg
   - user_id : integer
   - area_id : integer
   - areamsg_message : text
-  - areamsg_created : datetime
   Primarykey(areamsg_id)
-  Unique(areamsg_thread_id, user_id, area_id, areamsg_message, areamsg_created)
 
 Tag
+  - tag_id : int
   - tag_name : string
-  Primarykey(tag_name)
-  
+  Primarykey(tag_id)
+  Unique(tag_name)
+
+
+(Pass på at det ikke blir sirkler i tag kategorier) 
 TagCategory
-  - tag_name_parent : string
-  - tag_name_child : string
-  Primarykey(tag_name_parent, tag_name_child)
+  - tag_id_parent : int
+  - tag_id_child : int
+  Primarykey(tag_id_parent, tag_id_child)
   
