@@ -12,13 +12,19 @@
  http://myubuntusetup.blogspot.com/2007/05/set-up-ruby-on-rails-with-postgresql.html
 
 5. long lat over forskjellige store byer i verden
-http://www.bcca.org/misc/qiblih/latlong.html
+ http://www.bcca.org/misc/qiblih/latlong.html
 
 6. lookup function
-http://www.astro.com/atlas <-- lage en crawler?
+ http://www.astro.com/atlas <-- lage en crawler?
 
 7. reverse geocodig med værdata....
-http://gmaps-samples.googlecode.com/svn/trunk/geonames/reversewebservices.html
+ http://gmaps-samples.googlecode.com/svn/trunk/geonames/reversewebservices.html
+
+8. tips og tricks til Rails 2.0
+ http://weblog.rubyonrails.org/2007/9/30/rails-2-0-0-preview-release
+
+9. masse tips med Rails 2.0
+ http://www.akitaonrails.com/2007/12/12/rolling-with-rails-2-0-the-first-full-tutorial
 
 ======= Database INFO =======================
 
@@ -31,28 +37,4 @@ Rails		Postgresql
 :decimal	decimal
 :float		float
 :integer	integer
-:string		*
-
-
-* er som regel varchar(255) mener jeg
-
-1. Generate migration	
- ruby script/generate migration your_chosen_migration_name
-
-2. run all unapplied migrations	
- rake db:migrate
-
-3. migrate database to specific version
- rake db:migrate VERSION=18
-
-4. use your migrations to recreate the tables in the testing or production databases
- rake db:migrate RAILS_ENV=production
-
-5. Create a db/schema.rb file that can be portably used against any database supported by ActiveRecord
- rake db:schema:dump
-
-6. Load a schema.rb file into the database
- rake db:schema:load
-
-7. Loads a schema.rb file into the database and then loads the initial database fixtures.
- rake db:bootstrap
+:string		varchar(255)

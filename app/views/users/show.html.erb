@@ -1,0 +1,48 @@
+<p>
+  <b>User name:</b>
+  <%=h @user.user_name %>
+</p>
+
+<p>
+  <b>User username:</b>
+  <%=h @user.user_username %>
+</p>
+
+<p>
+  <b>User password:</b>
+  <%=h @user.user_password %>
+</p>
+
+<p>
+  <b>User email:</b>
+  <%=h @user.user_email %>
+</p>
+
+<p>
+  <b>User about:</b>
+  <%=h @user.user_about %>
+</p>
+
+<p>
+  <b>User website:</b>
+  <%=h @user.user_website %>
+</p>
+
+<p>
+  <b>User phone:</b>
+  <%=h @user.user_phone %>
+</p>
+
+<p>
+  <b>User sex:</b>
+  <%=h @user.user_sex %>
+</p>
+
+<p>
+  <b>User birth:</b>
+  <%=h @user.user_birth %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
