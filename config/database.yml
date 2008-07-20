@@ -1,20 +1,18 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: utf8
+  username: msgmap
+  password: i53slep
+  timeout: 5000
+  
 development:
-  adapter: postgresql
   database: messagemap_dev
-  username: msgmap
-  password: i53slep
-  timeout: 5000
-
+  <<: *defaults
+  
 test:
-  adapter: postgresql
   database: messagemap_test
-  username: msgmap
-  password: i53slep
-  timeout: 5000
+  <<: *defaults
 
 production:
-  adapter: postgresql
   database: messagemap_prod
-  username: msgmap
-  password: i53slep
-  timeout: 5000
+  <<: *defaults

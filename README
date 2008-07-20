@@ -1,4 +1,4 @@
-======== MessageMap INFO&URLS ===============
+======= MessageMap INFO&URLS =========================
 1. for å bruke flere Primary Keys:
  http://compositekeys.rubyforge.org/
 
@@ -26,7 +26,7 @@
 9. masse tips med Rails 2.0
  http://www.akitaonrails.com/2007/12/12/rolling-with-rails-2-0-the-first-full-tutorial
 
-======= Database INFO =======================
+======= Database INFO =========================
 
 Rails		Postgresql
 -------------------------------
@@ -38,3 +38,103 @@ Rails		Postgresql
 :float		float
 :integer	integer
 :string		varchar(255)
+
+
+======= SITE Controllers/Views =========================
+
+1. "C:" = Controller
+2. "Views/Actions" = Those sites are gonna be viewed and need actions for it
+3. "other Actions without views" = actions that doesnt need a view, just the methods inside the controller
+
+
+C: Account
+	|
+	-------> Views/Actions
+	|			|
+	|			-------> index				## shows the profile e.g: "account/stian/"
+	|			|
+	|			-------> notification		## shows the notification settings e.g: "account/stian/notification/"
+	|			|
+	|			-------> privacy			## shows the privacy settings e.g: "account/stian/privacy/"
+	|			|
+	|			-------> device				## shows the device settings e.g: "account/stian/device/"
+	|			
+  	-------> other Actions without views
+  				|
+  				-------> update				## saves the account settings
+  	
+  	
+C: Map
+	|
+	-------> Views/Actions
+	|			|
+	|			-------> index				## shows the map for user e.g: "map/stian/"
+	|			
+  	-------> other Actions without views
+  				|
+  				-------> create				## creates a new area with given point: lat, long, and radius e.g: "/map/stian/create/10/62/29"
+  				|
+  				-------> update				## updates a selected area
+  				|
+  				-------> destroy			## destroys a given area, but is still in the database.
+  				
+C: Subscriptions
+	|
+	-------> Views/Actions
+	|			|
+	|			-------> index				## shows your subscriptions for user e.g: "subscription/stian/"
+	|			
+  	-------> other Actions without views
+  				|
+  				-------> create				## creates a new subscription with area_id e.g: "subscription/stian/create/12/"
+  				|
+  				-------> update				## updates a selected subscription with sub_id e.g: "subscription/stian/update/2/"
+  				|
+  				-------> destroy			## destroys a given subscription with given sub_id e.g: "subscription/stian/destroy/2/"
+ 
+ 
+ C: Tags
+	|			
+  	-------> other Actions without views
+  				|
+  				-------> create				## creates a new tag e.g: "tag/create/hjemme_hos_meg/"
+  				|
+  				-------> destroy			## destroys a given tag e.g: "tag/destroy/hjemme_hos_meg/"
+  	
+  	
+ C: Messages
+	|
+	-------> Views/Actions
+				|
+				-------> areas										
+				|			|
+				|			-------> Views/Actions
+				|			|				|
+				|			|				-------> index			## shows messages for your areas e.g: "message/stian/areas/"
+				|			|			
+				|		  	-------> other Actions without views
+				|		  				|
+				|		  				-------> create				## creates a new message to an area e.g: "message/stian/areas/create/"
+				|
+				-------> friends									## shows messages to you from friends e.g: "message/stian/friends/"
+							|
+							-------> Views/Actions
+							|				|
+							|				-------> index			## shows messages to you from your friends e.g: "message/stian/friends/"
+							|			
+						  	-------> other Actions without views
+						  				|
+						  				-------> create				## creates a new message to a friend e.g: "message/stian/friends/create/"
+				
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
