@@ -5,6 +5,7 @@ class CreateUserquiettimes < ActiveRecord::Migration
       t.datetime :userquiettime_start
       t.datetime :userquiettime_end
       t.integer :userquiettime_timezone
+      t.string :userquiettime_type
       t.boolean :userquiettime_enabled
 
       t.timestamps

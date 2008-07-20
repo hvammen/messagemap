@@ -4,27 +4,55 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>MessageMap v0.1</title>
 	<%=stylesheet_link_tag "default", :media => "screen" %>
-    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAdCRnwDhkKcBpnYCZjVDV7hTxF_IEtorRKYcbuqPphDEb1SqCMxSngYq_eHgXn9KbJT9e6QqRjyPEPA"
-      type="text/javascript"></script>
-    <script type="text/javascript">
 
-    //<![CDATA[
+	
+	<% if params[:controller] == "map" -%>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAdCRnwDhkKcBpnYCZjVDV7hTxF_IEtorRKYcbuqPphDEb1SqCMxSngYq_eHgXn9KbJT9e6QqRjyPEPA" type="text/javascript"></script>
+	<script src="http://www.google.com/uds/api?file=uds.js&amp;v=1.0&key=ABQIAAAAdCRnwDhkKcBpnYCZjVDV7hTxF_IEtorRKYcbuqPphDEb1SqCMxSngYq_eHgXn9KbJT9e6QqRjyPEPA" type="text/javascript"></script>
+	<script src="http://www.google.com/uds/solutions/localsearch/gmlocalsearch.js?adsense=pub-1227201690587661" type="text/javascript"></script>
 
-    function load() {
-      if (GBrowserIsCompatible()) {
-        var map = new GMap2(document.getElementById("map"));
-        map.setCenter(new GLatLng(62, 10), 5);
+	<script type="text/javascript" language="JavaScript">
+	var myMap = null;
+	var localSearch = null;
+	var myQueryControl = null;
+	
+	function displayMap(){
+	  myMap = new GMap2(document.getElementById("map"));
+	  myMap.setCenter(new GLatLng(59.913820,10.738741), 9);
+	  myMap.addControl(new GSmallMapControl());
+	  myMap.addControl(new GMapTypeControl());
+	  localSearch = new google.maps.LocalSearch();//{externalAds : document.getElementById("ads")});
+	  myMap.addControl(localSearch);
+	  myQueryControl = new QueryControl(localSearch);
+	  myMap.addControl(myQueryControl);
+	
+	  GEvent.addListener(myMap, "click", function(overlay, point) {
+	    if (point) {
+	      singleClick = !singleClick;
+	      setTimeout("if (singleClick) createCircle(new GLatLng("+ point.y + ", " + point.x +"), 250);", 300);
+	    }
+	  });
+	}
+	
+	</script>
 
-     	map.addControl(new GLargeMapControl());
-     	map.addControl(new GMapTypeControl());
+	<style type="text/css">
+	  @import url("http://www.google.com/uds/css/gsearch.css");
+	  @import url("http://www.google.com/uds/solutions/localsearch/gmlocalsearch.css");
+	
+	  div#GQueryControl {
+	    background-color: white;
+	    width: 155px;
+	  }
+	</style>
 
-      }
-    }
-
-    //]]>
-    </script>
+	<% end -%>
 </head>
-<body onload="load();" onunload="GUnload();">
+<%if params[:controller] == "map" -%>
+<body onload="displayMap()" onunload="GUnload()">
+<% else -%>
+<body>
+<% end -%>
 <div id="top">
 	<h1>MessageMap</h1>
 </div>
@@ -32,6 +60,5 @@
 <div id="page">
 	<%= yield %>
 </div>
-
 </body>
 </html>

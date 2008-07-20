@@ -1,8 +1,8 @@
 class CreateUsermsgs < ActiveRecord::Migration
   def self.up
     create_table :usermsgs do |t|
-      t.integer :user_id_me
-      t.integer :user_id_myfriend
+      t.integer :user_id_from
+      t.integer :user_id_to
       t.text :usermsg_message
 
       t.timestamps

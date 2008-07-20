@@ -2,6 +2,7 @@ class CreateUserprivacies < ActiveRecord::Migration
   def self.up
     create_table :userprivacies do |t|
       t.integer :user_id
+      t.string :userprivacy_message_type
       t.string :userprivacy_friend_type
       t.string :userprivacy_value
 

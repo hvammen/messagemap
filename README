@@ -13,4 +13,11 @@
 4. for å installere postgresql med rails på ubuntu:
  http://myubuntusetup.blogspot.com/2007/05/set-up-ruby-on-rails-with-postgresql.html
 
-5. Test
+5. long lat over forskjellige store byer i verden
+http://www.bcca.org/misc/qiblih/latlong.html
+
+6. lookup function
+http://www.astro.com/atlas <-- lage en crawler?
+
+7. reverse geocodig med værdata....
+http://gmaps-samples.googlecode.com/svn/trunk/geonames/reversewebservices.html

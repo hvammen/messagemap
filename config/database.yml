@@ -2,19 +2,19 @@ development:
   adapter: postgresql
   database: messagemap_dev
   username: msgmap
-  password: test123
+  password: i53slep
   timeout: 5000
 
 test:
   adapter: postgresql
   database: messagemap_test
   username: msgmap
-  password: test123
+  password: i53slep
   timeout: 5000
 
 production:
   adapter: postgresql
   database: messagemap_prod
   username: msgmap
-  password: test123
+  password: i53slep
   timeout: 5000
