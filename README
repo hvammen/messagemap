@@ -1,6 +1,4 @@
 ======== MessageMap INFO&URLS ===============
-
-
 1. for å bruke flere Primary Keys:
  http://compositekeys.rubyforge.org/
 
@@ -21,3 +19,40 @@ http://www.astro.com/atlas <-- lage en crawler?
 
 7. reverse geocodig med værdata....
 http://gmaps-samples.googlecode.com/svn/trunk/geonames/reversewebservices.html
+
+======= Database INFO =======================
+
+Rails		Postgresql
+-------------------------------
+:binary 	bytea
+:boolean	boolean
+:date		date
+:datetime	timestamp
+:decimal	decimal
+:float		float
+:integer	integer
+:string		*
+
+
+* er som regel varchar(255) mener jeg
+
+1. Generate migration	
+ ruby script/generate migration your_chosen_migration_name
+
+2. run all unapplied migrations	
+ rake db:migrate
+
+3. migrate database to specific version
+ rake db:migrate VERSION=18
+
+4. use your migrations to recreate the tables in the testing or production databases
+ rake db:migrate RAILS_ENV=production
+
+5. Create a db/schema.rb file that can be portably used against any database supported by ActiveRecord
+ rake db:schema:dump
+
+6. Load a schema.rb file into the database
+ rake db:schema:load
+
+7. Loads a schema.rb file into the database and then loads the initial database fixtures.
+ rake db:bootstrap
