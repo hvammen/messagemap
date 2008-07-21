@@ -1,5 +1,4 @@
 class Area < ActiveRecord::Base
-  set_primary_key :area_id
   
   belongs_to :user, :foreign_key => "area_user_id"
   

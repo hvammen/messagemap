@@ -26,6 +26,11 @@
 9. masse tips med Rails 2.0
  http://www.akitaonrails.com/2007/12/12/rolling-with-rails-2-0-the-first-full-tutorial
 
+======= Nyttige Programmer =========================
+ 1. Pgadmin 3
+ 2. Aptana
+
+
 ======= Database INFO =========================
 
 Rails		Postgresql
@@ -35,7 +40,7 @@ Rails		Postgresql
 :date		date
 :datetime	timestamp
 :decimal	decimal
-:float		float
+:float		float/double precition
 :integer	integer
 :string		varchar(255)
 
@@ -52,16 +57,10 @@ C: Account
 	-------> Views/Actions
 	|			|
 	|			-------> index				## shows the profile e.g: "account/stian/"
-	|			|
-	|			-------> notification		## shows the notification settings e.g: "account/stian/notification/"
-	|			|
-	|			-------> privacy			## shows the privacy settings e.g: "account/stian/privacy/"
-	|			|
-	|			-------> device				## shows the device settings e.g: "account/stian/device/"
 	|			
   	-------> other Actions without views
   				|
-  				-------> update				## saves the account settings
+  				-------> update				## saves the account settings "account/stian/update"
   	
   	
 C: Map

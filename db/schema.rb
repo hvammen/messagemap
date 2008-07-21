@@ -41,7 +41,9 @@ ActiveRecord::Schema.define(:version => 20080718084336) do
 
   create_table "areas", :force => true do |t|
     t.integer  "area_user_id"
-    t.string   "area_point"
+    t.float    "area_point_lat"
+    t.float    "area_point_lng"
+    t.float    "area_point_rad"
     t.boolean  "area_enabled"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -42,4 +42,7 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+  map.connect ':controller/:action/:user/:format'
+  map.connect ':controller/:action/:lat/:lng/:rad', :lat=> /(\d|\.)+/, :lng => /(\d|\.)+/, :rad => /(\d|\.)+/ 
+  map.connect ':controller/:action/:id/:lat/:lng/:rad', :lat=> /(\d|\.)+/, :lng => /(\d|\.)+/, :rad => /(\d|\.)+/ 
 end
