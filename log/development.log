@@ -20671,3 +20671,1352 @@ c2h7AAY6CkB1c2VkewA=--f498d882a1764cfea7cdc0b4a65941e16b14586c
   [4;35;1mArea Load (0.000585)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
 Rendering map/index.xml.builder
 Completed in 0.02476 (40 reqs/sec) | Rendering: 0.01256 (50%) | DB: 0.00059 (2%) | 200 OK [http://192.168.2.2/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-21 20:54:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlN2Q2YzQ3MjVmMjViYmQxMzhhNjU5OTMwZDI5NjJi
+NTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--f498d882a1764cfea7cdc0b4a65941e16b14586c
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000561)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.03047 (32 reqs/sec) | Rendering: 0.01874 (61%) | DB: 0.00056 (1%) | 200 OK [http://192.168.2.2/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-21 20:54:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlN2Q2YzQ3MjVmMjViYmQxMzhhNjU5OTMwZDI5NjJi
+NTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--f498d882a1764cfea7cdc0b4a65941e16b14586c
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000557)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02369 (42 reqs/sec) | Rendering: 0.01235 (52%) | DB: 0.00056 (2%) | 200 OK [http://192.168.2.2/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-21 20:54:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlN2Q2YzQ3MjVmMjViYmQxMzhhNjU5OTMwZDI5NjJi
+NTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--f498d882a1764cfea7cdc0b4a65941e16b14586c
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000897)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.03034 (32 reqs/sec) | Rendering: 0.00844 (27%) | DB: 0.00090 (2%) | 200 OK [http://192.168.2.2/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-21 20:54:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlN2Q2YzQ3MjVmMjViYmQxMzhhNjU5OTMwZDI5NjJi
+NTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--f498d882a1764cfea7cdc0b4a65941e16b14586c
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000585)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02517 (39 reqs/sec) | Rendering: 0.01265 (50%) | DB: 0.00058 (2%) | 200 OK [http://192.168.2.2/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-21 21:04:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlN2Q2YzQ3MjVmMjViYmQxMzhhNjU5OTMwZDI5NjJi
+NTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--f498d882a1764cfea7cdc0b4a65941e16b14586c
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000576)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01640 (60 reqs/sec) | Rendering: 0.00454 (27%) | DB: 0.00058 (3%) | 200 OK [http://192.168.2.2/map/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-21 21:04:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlN2Q2YzQ3MjVmMjViYmQxMzhhNjU5OTMwZDI5NjJi
+NTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--f498d882a1764cfea7cdc0b4a65941e16b14586c
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000926)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.04166 (24 reqs/sec) | Rendering: 0.01976 (47%) | DB: 0.00093 (2%) | 200 OK [http://192.168.2.2/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:27:20) [GET]
+  Session ID: 7fdfdfaf06b6805a14c6ce03cda41438
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;36;1mSQL (0.012387)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000137)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mArea Load (0.100329)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.45764 (2 reqs/sec) | Rendering: 0.33483 (73%) | DB: 0.11285 (24%) | 200 OK [http://192.168.2.3/map/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:27:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000580)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.03189 (31 reqs/sec) | Rendering: 0.01313 (41%) | DB: 0.00058 (1%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:29:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000887)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.04380 (22 reqs/sec) | Rendering: 0.01568 (35%) | DB: 0.00089 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:29:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000884)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.04441 (22 reqs/sec) | Rendering: 0.02289 (51%) | DB: 0.00088 (1%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:37:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"3", "controller"=>"map"}
+  [4;36;1mUser Load (0.022262)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find User with ID=3):
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1379:in `find_one'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1362:in `find_from_ids'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:537:in `find'
+    /app/controllers/map_controller.rb:45:in `destroy'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:37:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"3", "controller"=>"map"}
+  [4;35;1mArea Load (0.228836)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 3) [0m
+  [4;36;1mSQL (0.000177)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.032783)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 3
+[0m
+  [4;36;1mSQL (0.043651)[0m   [0;1mCOMMIT[0m
+Completed in 0.38122 (2 reqs/sec) | Rendering: 0.00016 (0%) | DB: 0.32771 (85%) | 200 OK [http://192.168.2.3/map/destroy/3]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:38:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000554)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.03117 (32 reqs/sec) | Rendering: 0.01935 (62%) | DB: 0.00055 (1%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:38:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000898)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.04809 (20 reqs/sec) | Rendering: 0.02548 (52%) | DB: 0.00090 (1%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:39:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000912)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.04117 (24 reqs/sec) | Rendering: 0.01974 (47%) | DB: 0.00091 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:39:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000880)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.04511 (22 reqs/sec) | Rendering: 0.02330 (51%) | DB: 0.00088 (1%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:39:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"26", "controller"=>"map"}
+  [4;35;1mArea Load (0.000245)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 26) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000174)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 26
+[0m
+  [4;36;1mSQL (0.003101)[0m   [0;1mCOMMIT[0m
+Rendering template within layouts/default
+Rendering map/destroy
+
+
+ActionView::MissingTemplate (Missing template map/destroy.html.erb in view path /home/stianpr/private/messagemap/app/views):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:15:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `new'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:40:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000552)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01594 (62 reqs/sec) | Rendering: 0.00447 (28%) | DB: 0.00055 (3%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:40:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000541)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02314 (43 reqs/sec) | Rendering: 0.01162 (50%) | DB: 0.00054 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:40:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"27", "controller"=>"map"}
+  [4;35;1mArea Load (0.000437)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 27) [0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000288)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 27
+[0m
+  [4;36;1mSQL (0.002616)[0m   [0;1mCOMMIT[0m
+Rendering template within layouts/none
+Rendering map/destroy
+
+
+ActionView::MissingTemplate (Missing template map/destroy.html.erb in view path /home/stianpr/private/messagemap/app/views):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:15:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `new'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:922:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/map_controller.rb:48:in `destroy'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:40:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000862)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.02746 (36 reqs/sec) | Rendering: 0.00607 (22%) | DB: 0.00086 (3%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:40:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000568)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.08239 (12 reqs/sec) | Rendering: 0.01190 (14%) | DB: 0.00057 (0%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:40:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"29", "controller"=>"map"}
+  [4;35;1mArea Load (0.000435)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 29) [0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000287)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 29
+[0m
+  [4;36;1mSQL (0.003018)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+
+
+ActionView::MissingTemplate (Missing template map/destroy.html.erb in view path /home/stianpr/private/messagemap/app/views):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:15:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `new'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:922:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/map_controller.rb:48:in `destroy'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:41:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000522)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01548 (64 reqs/sec) | Rendering: 0.00438 (28%) | DB: 0.00052 (3%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:41:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000845)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.03815 (26 reqs/sec) | Rendering: 0.01719 (45%) | DB: 0.00084 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:41:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"28", "controller"=>"map"}
+  [4;35;1mArea Load (0.000422)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 28) [0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000293)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 28
+[0m
+  [4;36;1mSQL (0.003453)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+
+
+ActionView::MissingTemplate (Missing template map/destroy.xml.erb in view path /home/stianpr/private/messagemap/app/views):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:15:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `new'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:922:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/map_controller.rb:50:in `destroy'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/map_controller.rb:49:in `destroy'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:42:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000834)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.02883 (34 reqs/sec) | Rendering: 0.00784 (27%) | DB: 0.00083 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:42:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000533)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02256 (44 reqs/sec) | Rendering: 0.01085 (48%) | DB: 0.00053 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"25", "controller"=>"map"}
+  [4;35;1mArea Load (0.000414)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 25) [0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000283)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 25
+[0m
+  [4;36;1mSQL (0.005163)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.03067 (32 reqs/sec) | Rendering: 0.00258 (8%) | DB: 0.00599 (19%) | 200 OK [http://192.168.2.3/map/destroy/25]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"24", "controller"=>"map"}
+  [4;35;1mArea Load (0.000235)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 24) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000186)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 24
+[0m
+  [4;36;1mSQL (0.005000)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.02174 (46 reqs/sec) | Rendering: 0.00047 (2%) | DB: 0.00551 (25%) | 200 OK [http://192.168.2.3/map/destroy/24]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"23", "controller"=>"map"}
+  [4;35;1mArea Load (0.000236)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 23) [0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000186)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 23
+[0m
+  [4;36;1mSQL (0.005561)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01803 (55 reqs/sec) | Rendering: 0.00045 (2%) | DB: 0.00607 (33%) | 200 OK [http://192.168.2.3/map/destroy/23]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"22", "controller"=>"map"}
+  [4;35;1mArea Load (0.000435)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 22) [0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000299)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 22
+[0m
+  [4;36;1mSQL (0.005430)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.02904 (34 reqs/sec) | Rendering: 0.00086 (2%) | DB: 0.00629 (21%) | 200 OK [http://192.168.2.3/map/destroy/22]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"21", "controller"=>"map"}
+  [4;35;1mArea Load (0.000231)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 21) [0m
+  [4;36;1mSQL (0.000072)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000170)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 21
+[0m
+  [4;36;1mSQL (0.000443)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01408 (71 reqs/sec) | Rendering: 0.00051 (3%) | DB: 0.00092 (6%) | 200 OK [http://192.168.2.3/map/destroy/21]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"20", "controller"=>"map"}
+  [4;35;1mArea Load (0.000224)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 20) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000174)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 20
+[0m
+  [4;36;1mSQL (0.006087)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01877 (53 reqs/sec) | Rendering: 0.00050 (2%) | DB: 0.00657 (34%) | 200 OK [http://192.168.2.3/map/destroy/20]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"19", "controller"=>"map"}
+  [4;35;1mArea Load (0.000237)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 19) [0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000180)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 19
+[0m
+  [4;36;1mSQL (0.000411)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01281 (78 reqs/sec) | Rendering: 0.00045 (3%) | DB: 0.00091 (7%) | 200 OK [http://192.168.2.3/map/destroy/19]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"18", "controller"=>"map"}
+  [4;35;1mArea Load (0.000409)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 18) [0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000284)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 18
+[0m
+  [4;36;1mSQL (0.005418)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.02996 (33 reqs/sec) | Rendering: 0.00086 (2%) | DB: 0.00624 (20%) | 200 OK [http://192.168.2.3/map/destroy/18]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"17", "controller"=>"map"}
+  [4;35;1mArea Load (0.000439)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 17) [0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000289)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 17
+[0m
+  [4;36;1mSQL (0.000532)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.02392 (41 reqs/sec) | Rendering: 0.00078 (3%) | DB: 0.00138 (5%) | 200 OK [http://192.168.2.3/map/destroy/17]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:42:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"16", "controller"=>"map"}
+  [4;35;1mArea Load (0.000224)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 16) [0m
+  [4;36;1mSQL (0.000083)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000165)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 16
+[0m
+  [4;36;1mSQL (0.000406)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01289 (77 reqs/sec) | Rendering: 0.00044 (3%) | DB: 0.00088 (6%) | 200 OK [http://192.168.2.3/map/destroy/16]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:42:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000467)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01566 (63 reqs/sec) | Rendering: 0.00430 (27%) | DB: 0.00047 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:43:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000705)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.03476 (28 reqs/sec) | Rendering: 0.01469 (42%) | DB: 0.00071 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"15", "controller"=>"map"}
+  [4;35;1mArea Load (0.000420)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 15) [0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000287)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 15
+[0m
+  [4;36;1mSQL (0.006103)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.02996 (33 reqs/sec) | Rendering: 0.00084 (2%) | DB: 0.00694 (23%) | 200 OK [http://192.168.2.3/map/destroy/15]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"5", "controller"=>"map"}
+  [4;35;1mArea Load (0.000227)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 5) [0m
+  [4;36;1mSQL (0.000087)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000162)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 5
+[0m
+  [4;36;1mSQL (0.000459)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01291 (77 reqs/sec) | Rendering: 0.00046 (3%) | DB: 0.00094 (7%) | 200 OK [http://192.168.2.3/map/destroy/5]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"12", "controller"=>"map"}
+  [4;35;1mArea Load (0.000240)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 12) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000169)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 12
+[0m
+  [4;36;1mSQL (0.005567)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01786 (56 reqs/sec) | Rendering: 0.00045 (2%) | DB: 0.00606 (33%) | 200 OK [http://192.168.2.3/map/destroy/12]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"2", "controller"=>"map"}
+  [4;35;1mArea Load (0.000209)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 2) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000175)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 2
+[0m
+  [4;36;1mSQL (0.000412)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01393 (71 reqs/sec) | Rendering: 0.00048 (3%) | DB: 0.00088 (6%) | 200 OK [http://192.168.2.3/map/destroy/2]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"14", "controller"=>"map"}
+  [4;35;1mArea Load (0.000244)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 14) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000158)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 14
+[0m
+  [4;36;1mSQL (0.004890)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01751 (57 reqs/sec) | Rendering: 0.00046 (2%) | DB: 0.00538 (30%) | 200 OK [http://192.168.2.3/map/destroy/14]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"13", "controller"=>"map"}
+  [4;35;1mArea Load (0.000237)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 13) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000169)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 13
+[0m
+  [4;36;1mSQL (0.000405)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01596 (62 reqs/sec) | Rendering: 0.00045 (2%) | DB: 0.00090 (5%) | 200 OK [http://192.168.2.3/map/destroy/13]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"11", "controller"=>"map"}
+  [4;35;1mArea Load (0.000239)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 11) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000164)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 11
+[0m
+  [4;36;1mSQL (0.006018)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.02200 (45 reqs/sec) | Rendering: 0.00045 (2%) | DB: 0.00651 (29%) | 200 OK [http://192.168.2.3/map/destroy/11]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"10", "controller"=>"map"}
+  [4;35;1mArea Load (0.000246)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 10) [0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000175)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 10
+[0m
+  [4;36;1mSQL (0.000425)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01531 (65 reqs/sec) | Rendering: 0.00046 (3%) | DB: 0.00094 (6%) | 200 OK [http://192.168.2.3/map/destroy/10]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"9", "controller"=>"map"}
+  [4;35;1mArea Load (0.000447)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 9) [0m
+  [4;36;1mSQL (0.000075)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000183)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 9
+[0m
+  [4;36;1mSQL (0.000450)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.07554 (13 reqs/sec) | Rendering: 0.00051 (0%) | DB: 0.00115 (1%) | 200 OK [http://192.168.2.3/map/destroy/9]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"8", "controller"=>"map"}
+  [4;35;1mArea Load (0.000244)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 8) [0m
+  [4;36;1mSQL (0.000085)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000164)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 8
+[0m
+  [4;36;1mSQL (0.006329)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01958 (51 reqs/sec) | Rendering: 0.00047 (2%) | DB: 0.00682 (34%) | 200 OK [http://192.168.2.3/map/destroy/8]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"7", "controller"=>"map"}
+  [4;35;1mArea Load (0.000400)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 7) [0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000287)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 7
+[0m
+  [4;36;1mSQL (0.000527)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.02425 (41 reqs/sec) | Rendering: 0.00079 (3%) | DB: 0.00135 (5%) | 200 OK [http://192.168.2.3/map/destroy/7]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:43:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"6", "controller"=>"map"}
+  [4;35;1mArea Load (0.000239)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 6) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000167)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 6
+[0m
+  [4;36;1mSQL (0.006083)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01847 (54 reqs/sec) | Rendering: 0.00045 (2%) | DB: 0.00657 (35%) | 200 OK [http://192.168.2.3/map/destroy/6]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:43:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000381)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01877 (53 reqs/sec) | Rendering: 0.00392 (20%) | DB: 0.00038 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:43:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000376)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.01342 (74 reqs/sec) | Rendering: 0.00379 (28%) | DB: 0.00038 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#update (for 192.168.2.6 at 2008-07-22 08:43:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"1", "lng"=>"10.4013061523438", "controller"=>"map", "lat"=>"60.004478996944", "rad"=>"31490.079229859683"}
+  [4;35;1mArea Load (0.000252)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 1) [0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.053732)[0m   [0mUPDATE "areas" SET "area_point_rad" = 31490.0792298597, "updated_at" = '2008-07-22 06:43:12.317933' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.002975)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.07366 (13 reqs/sec) | Rendering: 0.00105 (1%) | DB: 0.05705 (77%) | 200 OK [http://192.168.2.3/map/update/1/60.004478996944/10.4013061523438/31490.079229859683]
+
+
+Processing MapController#update (for 192.168.2.6 at 2008-07-22 08:43:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"1", "lng"=>"10.975341796875", "controller"=>"map", "lat"=>"59.94950917225228", "rad"=>"31490.079229859683"}
+  [4;35;1mArea Load (0.001433)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 1) [0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000493)[0m   [0mUPDATE "areas" SET "area_point_rad" = 31490.0792298597, "area_point_lat" = 59.9495091722523, "area_point_lng" = 10.975341796875, "updated_at" = '2008-07-22 06:43:15.201437' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.005098)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.03599 (27 reqs/sec) | Rendering: 0.00121 (3%) | DB: 0.00718 (19%) | 200 OK [http://192.168.2.3/map/update/1/59.94950917225228/10.975341796875/31490.079229859683]
+
+
+Processing MapController#update (for 192.168.2.6 at 2008-07-22 08:43:19) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.01953125", "controller"=>"map", "lat"=>"59.91923685371464", "rad"=>"2000"}
+  [4;35;1mArea Load (0.000413)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000140)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000447)[0m   [0mUPDATE "areas" SET "area_point_lat" = 59.9192368537146, "area_point_lng" = 10.01953125, "updated_at" = '2008-07-22 06:43:20.002753' WHERE "id" = 4[0m
+  [4;36;1mSQL (0.006190)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.03551 (28 reqs/sec) | Rendering: 0.00130 (3%) | DB: 0.00719 (20%) | 200 OK [http://192.168.2.3/map/update/4/59.91923685371464/10.01953125/2000]
+
+
+Processing MapController#update (for 192.168.2.6 at 2008-07-22 08:43:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.01953125", "controller"=>"map", "lat"=>"59.91923685371464", "rad"=>"20830.166795390815"}
+  [4;35;1mArea Load (0.000463)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000434)[0m   [0mUPDATE "areas" SET "area_point_rad" = 20830.1667953908, "area_point_lat" = 59.9192368537146, "updated_at" = '2008-07-22 06:43:22.723295' WHERE "id" = 4[0m
+  [4;36;1mSQL (0.005010)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.03291 (30 reqs/sec) | Rendering: 0.00074 (2%) | DB: 0.00604 (18%) | 200 OK [http://192.168.2.3/map/update/4/59.91923685371464/10.01953125/20830.166795390815]
+
+
+Processing MapController#update (for 192.168.2.6 at 2008-07-22 08:43:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.01953125", "controller"=>"map", "lat"=>"59.91923685371464", "rad"=>"30782.302194248423"}
+  [4;35;1mArea Load (0.000432)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000445)[0m   [0mUPDATE "areas" SET "area_point_rad" = 30782.3021942484, "area_point_lat" = 59.9192368537146, "updated_at" = '2008-07-22 06:43:26.540379' WHERE "id" = 4[0m
+  [4;36;1mSQL (0.005842)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.03515 (28 reqs/sec) | Rendering: 0.00145 (4%) | DB: 0.00686 (19%) | 200 OK [http://192.168.2.3/map/update/4/59.91923685371464/10.01953125/30782.302194248423]
+
+
+Processing MapController#update (for 192.168.2.6 at 2008-07-22 08:43:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.1019287109375", "controller"=>"map", "lat"=>"59.983876006814825", "rad"=>"30782.302194248423"}
+  [4;35;1mArea Load (0.000243)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000091)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000283)[0m   [0mUPDATE "areas" SET "area_point_rad" = 30782.3021942484, "area_point_lat" = 59.9838760068148, "area_point_lng" = 10.1019287109375, "updated_at" = '2008-07-22 06:43:37.683874' WHERE "id" = 4[0m
+  [4;36;1mSQL (0.001330)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01913 (52 reqs/sec) | Rendering: 0.00080 (4%) | DB: 0.00195 (10%) | 200 OK [http://192.168.2.3/map/update/4/59.983876006814825/10.1019287109375/30782.302194248423]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:44:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000545)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.04242 (23 reqs/sec) | Rendering: 0.02300 (54%) | DB: 0.00055 (1%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:44:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000542)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02621 (38 reqs/sec) | Rendering: 0.00743 (28%) | DB: 0.00054 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:50:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.001108)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.05130 (19 reqs/sec) | Rendering: 0.03177 (61%) | DB: 0.00111 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:50:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000375)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.01352 (73 reqs/sec) | Rendering: 0.00391 (28%) | DB: 0.00038 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:51:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000394)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.02721 (36 reqs/sec) | Rendering: 0.01628 (59%) | DB: 0.00039 (1%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:51:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000373)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.01969 (50 reqs/sec) | Rendering: 0.00396 (20%) | DB: 0.00037 (1%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#create (for 192.168.2.6 at 2008-07-22 08:51:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"create", "lng"=>"9.481201171875", "controller"=>"map", "lat"=>"60.37042901631508", "rad"=>"2250"}
+  [4;35;1mSQL (0.000091)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.032479)[0m   [0;1mINSERT INTO "areas" ("area_user_id", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_point_rad", "created_at") VALUES(NULL, '2008-07-22 06:51:05.946664', 9.481201171875, 60.3704290163151, NULL, 2250.0, '2008-07-22 06:51:05.946664')[0m
+  [4;35;1mSQL (0.010092)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.006118)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.36558 (2 reqs/sec) | Rendering: 0.00139 (0%) | DB: 0.04878 (13%) | 200 OK [http://192.168.2.3/map/create/60.37042901631508/9.481201171875/2250]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:51:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000586)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.04956 (20 reqs/sec) | Rendering: 0.03051 (61%) | DB: 0.00059 (1%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:51:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000383)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.01389 (71 reqs/sec) | Rendering: 0.00420 (30%) | DB: 0.00038 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#destroy (for 192.168.2.6 at 2008-07-22 08:51:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"destroy", "id"=>"30", "controller"=>"map"}
+  [4;35;1mArea Load (0.000282)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 30) [0m
+  [4;36;1mSQL (0.000084)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Destroy (0.000162)[0m   [0m DELETE FROM "areas"
+ WHERE "id" = 30
+[0m
+  [4;36;1mSQL (0.001187)[0m   [0;1mCOMMIT[0m
+Rendering map/destroy
+Completed in 0.01464 (68 reqs/sec) | Rendering: 0.00048 (3%) | DB: 0.00171 (11%) | 200 OK [http://192.168.2.3/map/destroy/30]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:51:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000551)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.04914 (20 reqs/sec) | Rendering: 0.02972 (60%) | DB: 0.00055 (1%) | 200 OK [http://192.168.2.3/map/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:51:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000371)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02024 (49 reqs/sec) | Rendering: 0.00396 (19%) | DB: 0.00037 (1%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:52:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000374)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01771 (56 reqs/sec) | Rendering: 0.00105 (5%) | DB: 0.00037 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:52:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000385)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.01685 (59 reqs/sec) | Rendering: 0.00392 (23%) | DB: 0.00039 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:52:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000407)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01209 (82 reqs/sec) | Rendering: 0.00108 (8%) | DB: 0.00041 (3%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:52:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000533)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02670 (37 reqs/sec) | Rendering: 0.00750 (28%) | DB: 0.00053 (1%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:52:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000374)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01643 (60 reqs/sec) | Rendering: 0.00106 (6%) | DB: 0.00037 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 08:52:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000380)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.01785 (56 reqs/sec) | Rendering: 0.00391 (21%) | DB: 0.00038 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#update (for 192.168.2.6 at 2008-07-22 08:52:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"1", "lng"=>"10.975341796875", "controller"=>"map", "lat"=>"59.9495091722523", "rad"=>"86248.9529436165"}
+  [4;35;1mArea Load (0.000235)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 1) [0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000259)[0m   [0mUPDATE "areas" SET "area_point_rad" = 86248.9529436165, "updated_at" = '2008-07-22 06:52:27.619435' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.001278)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01723 (58 reqs/sec) | Rendering: 0.00074 (4%) | DB: 0.00187 (10%) | 200 OK [http://192.168.2.3/map/update/1/59.9495091722523/10.975341796875/86248.9529436165]
+
+
+Processing MapController#index (for 127.0.0.1 at 2008-07-22 09:01:02) [GET]
+  Session ID: 4ba75aebad06c41eaffe185f95fe5f80
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000368)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01307 (76 reqs/sec) | Rendering: 0.00109 (8%) | DB: 0.00037 (2%) | 200 OK [http://localhost/]
+
+
+Processing MapController#index (for 127.0.0.1 at 2008-07-22 09:01:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000564)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02727 (36 reqs/sec) | Rendering: 0.00751 (27%) | DB: 0.00056 (2%) | 200 OK [http://localhost/map/index/stianpr/xml]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-22 09:01:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"update", "id"=>"1", "lng"=>"10.975341796875", "controller"=>"map", "lat"=>"59.9495091722523", "rad"=>"19029.559699096408"}
+  [4;35;1mArea Load (0.000232)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 1) [0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000505)[0m   [0mUPDATE "areas" SET "area_point_rad" = 19029.5596990964, "updated_at" = '2008-07-22 07:01:16.350744' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.007872)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02538 (39 reqs/sec) | Rendering: 0.00078 (3%) | DB: 0.00876 (34%) | 200 OK [http://localhost/map/update/1/59.9495091722523/10.975341796875/19029.559699096408]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 09:01:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000358)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01513 (66 reqs/sec) | Rendering: 0.00106 (6%) | DB: 0.00036 (2%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 09:01:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000524)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02412 (41 reqs/sec) | Rendering: 0.00500 (20%) | DB: 0.00052 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 09:02:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000737)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.09174 (10 reqs/sec) | Rendering: 0.00514 (5%) | DB: 0.00074 (0%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 09:02:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000528)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02610 (38 reqs/sec) | Rendering: 0.00677 (25%) | DB: 0.00053 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 09:02:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;35;1mArea Load (0.000428)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.02360 (42 reqs/sec) | Rendering: 0.00494 (20%) | DB: 0.00043 (1%) | 200 OK [http://192.168.2.3/]
+
+
+Processing MapController#index (for 192.168.2.6 at 2008-07-22 09:02:35) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"user"=>"stianpr", "format"=>"xml", "action"=>"index", "controller"=>"map"}
+  [4;36;1mArea Load (0.000529)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" [0m
+Rendering map/index.xml.builder
+Completed in 0.02611 (38 reqs/sec) | Rendering: 0.00739 (28%) | DB: 0.00053 (2%) | 200 OK [http://192.168.2.3/map/index/stianpr/xml]

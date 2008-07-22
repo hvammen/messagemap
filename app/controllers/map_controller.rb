@@ -2,6 +2,7 @@ class MapController < ApplicationController
   layout "default"
   
   def index
+    
     @area = Area.find(:all, :select => "id, area_point_lat, area_point_lng, area_point_rad")
     
     respond_to do |format|
@@ -12,7 +13,6 @@ class MapController < ApplicationController
   end
 
   def create
-    ## :lat , :lng, :rad
     
     @area = Area.new
     
@@ -38,6 +38,16 @@ class MapController < ApplicationController
 
     respond_to do |format|
       format.xml { render :template => 'map/create.xml.builder', :layout => false }
+    end
+  end
+  
+  def destroy
+    
+    @area = Area.find(params[:id])
+    @area.destroy
+    
+    respond_to do |format|
+      format.xml { render :layout => false }
     end
   end
 end

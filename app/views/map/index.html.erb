@@ -54,62 +54,58 @@
 		
 		request.open("GET", "/map/index/stianpr/xml", true);
 		request.onreadystatechange = function() {
-		if (request.readyState == 4) {
-		  var xmlDoc = GXml.parse(request.responseText);
-		  // obtain the array of areas and loop through it
-		  var areas = xmlDoc.documentElement.getElementsByTagName("area");
-		  for (var i = 0; i < areas.length; i++) {
-		    // obtain the attribues of each area
-			var area_id = parseFloat(areas[i].getAttribute("id"));
-		    var lat = parseFloat(areas[i].getAttribute("lat"));
-		    var lng = parseFloat(areas[i].getAttribute("lng"));
-			var rad = parseFloat(areas[i].getAttribute("rad"));
-		    var point = new GLatLng(lat,lng);
-		    
-		    geoQuery = loadCircle(point, rad);
-			geoQuery.setCircleId(area_id);
-		  }
-		}
+			if (request.readyState == 4) {
+				var xmlDoc = GXml.parse(request.responseText);
+				// obtain the array of areas and loop through it
+				var areas = xmlDoc.documentElement.getElementsByTagName("area");
+				for (var i = 0; i < areas.length; i++) {
+					// obtain the attribues of each area
+					var area_id = parseFloat(areas[i].getAttribute("id"));
+					var lat = parseFloat(areas[i].getAttribute("lat"));
+					var lng = parseFloat(areas[i].getAttribute("lng"));
+					var rad = parseFloat(areas[i].getAttribute("rad"));
+					var point = new GLatLng(lat,lng);
+					
+					geoQuery = loadCircle(point, rad);
+					geoQuery.setCircleId(area_id);
+				}
+			}
 		}
 		request.send(null);	
 	}
 
 	function saveMarker(area_id, point, rad, geoQuery) {
-		// == obtain the data
-		//var short_cut = form.data.value;
-        var lat = point.lat();
-        var lng = point.lng();
+		var lat = point.lat();
+		var lng = point.lng();
 		var url;
 		var new_area_id = area_id;
-
+		
 		if(area_id == 0) {
 			url = "/map/create/" + lat + "/" + lng + "/"+ rad;
 		}
 		else {
 			url = "/map/update/" + area_id + "/" + lat + "/" + lng + "/"+ rad;
 		}
-
-		// ===== send the data to the server
-		// ===== NOTE - I can't actually do this because Googlepages doesn't do server scripts
-		// ===== In your real page, remove the "//" from the beginning of the next line 
 		
-      // Read the data from example.xml
-	  
-      var request = GXmlHttp.create();
+		var request = GXmlHttp.create();
+		
+		request.open("GET", url, true);
+		request.onreadystatechange = function() {
+			if (request.readyState == 4) {
+				var xmlDoc = GXml.parse(request.responseText);
+				// obtain the array of areas and loop through it
+				var areas = xmlDoc.documentElement.getElementsByTagName("area");
+				if (area_id == 0) {
+					new_area_id = parseFloat(areas[0].getAttribute("id"));
+					geoQuery.setCircleId(new_area_id);
+				}
+			}
+		}
+		request.send(null);	
+	}
 
-      request.open("GET", url, true);
-      request.onreadystatechange = function() {
-        if (request.readyState == 4) {
-          var xmlDoc = GXml.parse(request.responseText);
-          // obtain the array of areas and loop through it
-          var areas = xmlDoc.documentElement.getElementsByTagName("area");
-		  if (area_id == 0) {
-		  	new_area_id = parseFloat(areas[0].getAttribute("id"));
-			geoQuery.setCircleId(new_area_id);
-		  }
-        }
-      }
-      request.send(null);	
+	function destroyMarker(area_id) {
+		GDownloadUrl("/map/destroy/" + area_id, function(doc) {    });
 	}
 	
 	function destination(orig, hdng, dist) {
@@ -227,11 +223,11 @@
 	}
 	
 	GeoQuery.prototype.remove = function() {
+	  destroyMarker(this._area_id);
+	  
 	  this._map.removeOverlay(this._polyline);
 	  this._map.removeOverlay(this._dragHandle);
 	  this._map.removeOverlay(this._centerHandle);
-	  
-	  
 	}
 	
 	GeoQuery.prototype.getRadius = function() {
@@ -302,7 +298,6 @@
 	  this._queriesDiv = document.createElement("div");
 	  this._queriesDiv.id = "queriesDiv";
 	  this._mainDiv.appendChild(this._queriesDiv);
-	
 	  map.getContainer().appendChild(this._mainDiv);
 	  this._geoQueries = new Array();
 	  return this._mainDiv;
@@ -379,11 +374,4 @@
 	}
 	
 	</script>
-	
-	<%@area.each do |a|%>
-		<%=a.area_point_lat%> /
-		<%=a.area_point_lng%> /
-		<%=a.area_point_rad%><br/>
-	<%end%>
-	
 </div>
