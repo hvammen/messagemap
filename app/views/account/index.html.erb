@@ -1,0 +1,29 @@
+<div id="login_box">
+	<div id="header">Login
+	<br />
+	<%if flash[:notice]%>
+	<span id="msg"><%= flash[:notice]%></span>
+	<%end%>
+	</div>
+<% form_for :user, :url => { :action => 'login' } do |u| %>
+<table>
+	<tr>
+		<th>Username</th>
+	</tr>
+	<tr>
+		<td><%=u.text_field :user_username, :class => 'inp_login', :size => 12 %></td>
+	<tr>
+		<th>Password</th>
+	</tr>
+	<tr>
+		<td><%=u.password_field :user_password, :class => 'inp_login', :size => 12 %></td>
+	</tr>
+	<tr>
+		<td><%=u.check_box  :user_password %> remember me?</td>
+	</tr>
+	<tr>
+		<td colspan="2"><%=u.submit 'Log in', :class => 'inp_sbm' %> <span style="padding-left: 20px;">create new <%=link_to 'user?', :action => "signup" %></span></td>
+	</tr>
+</table>
+<% end %>
+</div>
