@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(:version => 20080718084336) do
   end
 
   create_table "areas", :force => true do |t|
-    t.string   "area_user_username"
+    t.integer  "area_user_id"
     t.float    "area_point_lat"
     t.float    "area_point_lng"
     t.float    "area_point_rad"

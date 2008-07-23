@@ -85,3 +85,67 @@ input {
 .tabs_underline  {
 	border-bottom: solid 2px #e1effd;
 }
+
+.inp_login {
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	border: solid 1px silver;
+}
+
+.inp_sbm {
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#login_box {
+	margin: 0 auto;
+	background-color: gray;
+	width: 360px;
+}
+#login_box table {
+	padding: 10px;
+	margin: 0 auto;
+	color: white;
+}
+#login_box th {
+	font-size: 12px;
+	text-align: left;
+}
+#login_box #header {
+	background-color: silver;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	border: solid 1px gray;
+}
+#login_box #header #msg {
+	color: red;
+	font-size: 12px;
+}
+
+#signup_box {
+	margin: 0 auto;
+	width: 600px;
+}
+#signup_box #header {
+	background-color: silver;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	border: solid 1px gray;
+}
+#signup_box th {
+	text-align: left;
+	font-size: 12px;
+	font-weight: normal;
+}
+#signup_box #header #msg {
+	color: red;
+	font-size: 10px;
+	padding: 10px;
+}
+
+#menu {
+	float:left;
+}
