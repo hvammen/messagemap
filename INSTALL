@@ -1,0 +1,24 @@
+
+
+1. install ruby and postgresql
+
+apt-get install irb1.8 libreadline-ruby1.8 libruby libruby1.8 rdoc1.8 ruby ruby1.8 ruby1.8-dev
+
+2. install gems:
+
+cd /usr/local/src
+wget http://rubyforge.org/frs/download.php/38646/rubygems-1.2.0.tgz
+tar zxf rubygems-1.2.0.tgz
+cd rubygems-1.2.0
+ruby setup.rb
+
+3. install rails using gems
+
+gem1.8 install rails --include-dependencies
+
+
+
+
+
+install postgresql and ...
+apt-get install postgresql

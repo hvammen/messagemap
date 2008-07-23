@@ -1,8 +1,8 @@
 defaults: &defaults
   adapter: postgresql
   encoding: utf8
-  username: msgmap
-  password: i53slep
+  username: sander
+  #password: i53slep
   timeout: 5000
   
 development:
