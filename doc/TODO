@@ -1,0 +1,31 @@
+   TODO LIST:
+--------------
+
+
+Make placement of circles equal size when we're on diffrent zoom levels
+google maps zoom levels:
+2000 1000 500 200 100 50 20 10 5 2 2 1 500 200 100 50
+
+Output circle/points in a standar xml format (kml format dosnt support real circles)
+
+Make it possible to embedd a map into another website
+
+Search for open data we can place on the map
+
+add geo articles from wikipedia into our database
+
+add geo pictures from panoramio
+
+Support for loading points/circles on the fly when we zoom in.
+
+Make it possible to register and sign in for users
+
+Design the website and pick the right colours (and icons)
+
+make it possible for an admin to add own defined icons to tags
+
+edit info for a public point, and automaticly subscribe to it
+
+set up opengis
+
+
