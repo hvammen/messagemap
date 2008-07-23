@@ -56,14 +56,19 @@ createdb messagemap_dev
 createdb messagemap_test
 createdb messagemap_prod
 
-10. insert data into db
+10. edit the database settings
+
+edit config/database.yml
+and add postgresql username
+
+11. insert data into db
 
 rake db:migrate
 
-11. start the ruby http server
+12. start the ruby http server
 
 ruby script/server
 
-12. remove the welcome message
+13. remove the welcome message
 
 rm public/index.html
