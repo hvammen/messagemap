@@ -40253,3 +40253,697 @@ ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--2f9c7b7ab013b962d0c1ecac610f20173c
   [4;35;1mSQL (0.006412)[0m   [0mCOMMIT[0m
 Rendering map/create.xml.builder
 Completed in 0.02342 (42 reqs/sec) | Rendering: 0.00077 (3%) | DB: 0.00704 (30%) | 200 OK [http://localhost/map/update/8/59.94847761626091/10.633563995361328/1369.0312843324707]
+  [4;36;1mSQL (0.000098)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000062)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.006967)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002604)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000379)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000141)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000118)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000110)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000112)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000114)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000113)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20080716191212)
+  [4;36;1mSQL (0.000128)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.011231)[0m   [0mCREATE TABLE "users" ("id" serial primary key, "user_name" character varying(255) NOT NULL, "user_username" character varying(255) NOT NULL, "user_password" character varying(255) NOT NULL, "user_email" character varying(255) NOT NULL, "user_about" character varying(255) DEFAULT NULL NULL, "user_website" character varying(255) DEFAULT NULL NULL, "user_phone" character varying(255) DEFAULT NULL NULL, "user_sex" character varying(255) NOT NULL, "user_birth" character varying(255) NOT NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.001167)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080716191212')[0m
+Migrating to CreateUsertags (20080717235846)
+  [4;35;1mSQL (0.000676)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.008281)[0m   [0;1mCREATE TABLE "usertags" ("id" serial primary key, "usertag_name" character varying(255) DEFAULT NULL NULL, "user_id" integer DEFAULT NULL NULL, "usertag_type" character varying(255) DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000921)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080717235846')[0m
+Migrating to CreateUserfriends (20080718000121)
+  [4;36;1mSQL (0.000186)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.005299)[0m   [0mCREATE TABLE "userfriends" ("id" serial primary key, "userfriend_id_me" integer DEFAULT NULL NULL, "userfriend_id_myfriend" integer DEFAULT NULL NULL, "userfriend_type" character varying(255) DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.000759)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080718000121')[0m
+Migrating to CreateUserprivacies (20080718000233)
+  [4;35;1mSQL (0.000182)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.007650)[0m   [0;1mCREATE TABLE "userprivacies" ("id" serial primary key, "user_id" integer DEFAULT NULL NULL, "userprivacy_message_type" character varying(255) DEFAULT NULL NULL, "userprivacy_friend_type" character varying(255) DEFAULT NULL NULL, "userprivacy_value" character varying(255) DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000927)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080718000233')[0m
+Migrating to CreateUserquiettimes (20080718000858)
+  [4;36;1mSQL (0.000184)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.006736)[0m   [0mCREATE TABLE "userquiettimes" ("id" serial primary key, "user_id" integer DEFAULT NULL NULL, "userquiettime_start" timestamp DEFAULT NULL NULL, "userquiettime_end" timestamp DEFAULT NULL NULL, "userquiettime_timezone" integer DEFAULT NULL NULL, "userquiettime_type" character varying(255) DEFAULT NULL NULL, "userquiettime_enabled" boolean DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.000797)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080718000858')[0m
+Migrating to CreateUserdevices (20080718001147)
+  [4;35;1mSQL (0.000215)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.007697)[0m   [0;1mCREATE TABLE "userdevices" ("id" serial primary key, "user_id" integer DEFAULT NULL NULL, "userdevice_device_type" character varying(255) DEFAULT NULL NULL, "userdevice_username" character varying(255) DEFAULT NULL NULL, "userdevice_password" character varying(255) DEFAULT NULL NULL, "userdevice_msglimit" integer DEFAULT NULL NULL, "userdevice_enabled" boolean DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000946)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080718001147')[0m
+Migrating to CreateUserdevicemsgtypes (20080718001324)
+  [4;36;1mSQL (0.000201)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.008850)[0m   [0mCREATE TABLE "userdevicemsgtypes" ("id" serial primary key, "user_id" integer DEFAULT NULL NULL, "userdevicemsgtype_device_type" character varying(255) DEFAULT NULL NULL, "userdevicemsgtype_message_type" character varying(255) DEFAULT NULL NULL, "userdevicemsgtype_enabled" boolean DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.001177)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080718001324')[0m
+Migrating to CreateUsermsgs (20080718001509)
+  [4;35;1mSQL (0.000229)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.007463)[0m   [0;1mCREATE TABLE "usermsgs" ("id" serial primary key, "user_id_from" integer DEFAULT NULL NULL, "user_id_to" integer DEFAULT NULL NULL, "usermsg_message" text DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000911)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080718001509')[0m
+Migrating to CreateAreas (20080718001721)
+  [4;36;1mSQL (0.000184)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.009179)[0m   [0mCREATE TABLE "areas" ("id" serial primary key, "area_user_id" integer DEFAULT NULL NULL, "area_point_lat" float DEFAULT NULL NULL, "area_point_lng" float DEFAULT NULL NULL, "area_point_rad" float DEFAULT NULL NULL, "area_enabled" boolean DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.000773)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080718001721')[0m
+Migrating to CreateAreaofficers (20080718001841)
+  [4;35;1mSQL (0.000188)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.005453)[0m   [0;1mCREATE TABLE "areaofficers" ("id" serial primary key, "area_id" integer DEFAULT NULL NULL, "user_id" integer DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000771)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080718001841')[0m
+Migrating to CreateAreatags (20080718002047)
+  [4;36;1mSQL (0.000190)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.005129)[0m   [0mCREATE TABLE "areatags" ("id" serial primary key, "tag_name" character varying(255) DEFAULT NULL NULL, "area_id" integer DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.000792)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080718002047')[0m
+Migrating to CreateAreasubscriptions (20080718082622)
+  [4;35;1mSQL (0.000190)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.012987)[0m   [0;1mCREATE TABLE "areasubscriptions" ("id" serial primary key, "areasubscription_name" character varying(255) DEFAULT NULL NULL, "area_id" integer DEFAULT NULL NULL, "user_id" integer DEFAULT NULL NULL, "areasubscription_circle" character varying(255) DEFAULT NULL NULL, "areasubscription_rating" integer DEFAULT NULL NULL, "areasubscription_notify" boolean DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000888)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080718082622')[0m
+Migrating to CreateAreainfos (20080718082827)
+  [4;36;1mSQL (0.000191)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.008027)[0m   [0mCREATE TABLE "areainfos" ("id" serial primary key, "area_id" integer DEFAULT NULL NULL, "areainfo_name" character varying(255) DEFAULT NULL NULL, "user_id" integer DEFAULT NULL NULL, "areainfo_value_str" character varying(255) DEFAULT NULL NULL, "areainfo_value_url" character varying(255) DEFAULT NULL NULL, "areainfo_value_int" integer DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.000946)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080718082827')[0m
+Migrating to CreateTags (20080718082956)
+  [4;35;1mSQL (0.000190)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.004570)[0m   [0;1mCREATE TABLE "tags" ("id" serial primary key, "tag_name" character varying(255) DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000817)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080718082956')[0m
+Migrating to CreateTagcategories (20080718083044)
+  [4;36;1mSQL (0.000610)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.008307)[0m   [0mCREATE TABLE "tagcategories" ("id" serial primary key, "tag_name_parent" character varying(255) DEFAULT NULL NULL, "tag_name_child" character varying(255) DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.001241)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080718083044')[0m
+Migrating to CreateAreamsgs (20080718084336)
+  [4;35;1mSQL (0.000193)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.007971)[0m   [0;1mCREATE TABLE "areamsgs" ("id" serial primary key, "areamsg_id" integer DEFAULT NULL NULL, "areamsg_thread_id" integer DEFAULT NULL NULL, "user_id" integer DEFAULT NULL NULL, "area_id" integer DEFAULT NULL NULL, "areamsg_message" text DEFAULT NULL NULL, "created_at" timestamp DEFAULT NULL NULL, "updated_at" timestamp DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.000913)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080718084336')[0m
+  [4;36;1mSQL (0.000368)[0m   [0;1mSELECT version FROM schema_migrations[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-23 23:31:24) [GET]
+  Session ID: 3347537552669d295637f6bd335db8c6
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/maps" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MapController#index (for 127.0.0.1 at 2008-07-23 23:31:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--f34ccdd98713bb53d830f24edf56d65c3bbf89e9
+  Parameters: {"action"=>"index", "controller"=>"map"}
+  [4;36;1mSQL (0.000088)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000061)[0m   [0mSET client_min_messages TO 'notice'[0m
+Redirected to http://localhost:3000/
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 0.00120 (834 reqs/sec) | DB: 0.00015 (12%) | 302 Found [http://localhost/map]
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2008-07-23 23:37:23) [GET]
+  Session ID: BAh7ByIOcmV0dXJuLXRvIgkvbWFwIgpmbGFzaElDOidBY3Rpb25Db250cm9s
+bGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--bad92b4491ff237ea791ebd3dd365efcdebe0ba9
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;36;1mSQL (0.000089)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000062)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.000941)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Completed in 0.02200 (45 reqs/sec) | Rendering: 0.00163 (7%) | DB: 0.00109 (4%) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing AccountController#index (for 127.0.0.1 at 2008-07-23 23:49:51) [GET]
+  Session ID: BAh7ByIOcmV0dXJuLXRvIgkvbWFwIgpmbGFzaElDOidBY3Rpb25Db250cm9s
+bGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--bad92b4491ff237ea791ebd3dd365efcdebe0ba9
+  Parameters: {"action"=>"index", "controller"=>"account"}
+Rendering template within layouts/default
+Rendering account/index
+Completed in 0.00957 (104 reqs/sec) | Rendering: 0.00766 (80%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#signup (for 127.0.0.1 at 2008-07-24 00:01:42) [GET]
+  Session ID: BAh7CCIOcmV0dXJuLXRvIgkvbWFwIgpmbGFzaElDOidBY3Rpb25Db250cm9s
+bGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3JmX2lkIiU1
+YzhkOGYwNDljZThlY2VkNzU5Yzg5ZjIzYWU1MGQ3ZQ==--008a2557ca8549973257dcee4932a27cdf6661f2
+  Parameters: {"action"=>"signup", "controller"=>"account"}
+Rendering template within layouts/default
+Rendering account/signup
+Completed in 0.02339 (42 reqs/sec) | Rendering: 0.00802 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/account/signup]
+
+
+Processing AccountController#signup (for 127.0.0.1 at 2008-07-24 00:02:19) [POST]
+  Session ID: BAh7CCIOcmV0dXJuLXRvIgkvbWFwIgpmbGFzaElDOidBY3Rpb25Db250cm9s
+bGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOgxjc3JmX2lkIiU1
+YzhkOGYwNDljZThlY2VkNzU5Yzg5ZjIzYWU1MGQ3ZQ==--008a2557ca8549973257dcee4932a27cdf6661f2
+  Parameters: {"commit"=>"Sign up", "authenticity_token"=>"6ed8e5e408f2d4db8609d57ebc4503420366b9d9", "action"=>"signup", "controller"=>"account", "user"=>{"user_website"=>"http://", "user_birth"=>"09/08/1984", "user_about"=>"", "user_phone"=>"", "user_name"=>"Sander Johansen", "user_sex"=>"m", "user_password"=>"kpl897jii", "user_password_confirmation"=>"kpl897jii", "user_username"=>"sanderm", "user_email"=>"sanderm@online.no"}}
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.001015)[0m   [0;1mSELECT "user_username" FROM "users" WHERE ("users".user_username = E'sanderm') [0m
+  [4;35;1mUser Create (0.000804)[0m   [0mINSERT INTO "users" ("user_website", "user_birth", "created_at", "updated_at", "user_about", "user_phone", "user_name", "user_sex", "user_password", "user_username", "user_email") VALUES(E'http://', E'09/08/1984', '2008-07-23 22:02:19.499279', '2008-07-23 22:02:19.499279', E'', E'', E'Sander Johansen', E'm', E'014178727b1c731c3f878588239f6bde83eb55da', E'sanderm', E'sanderm@online.no')[0m
+  [4;36;1mSQL (0.000323)[0m   [0;1mSELECT currval('users_id_seq')[0m
+  [4;35;1mSQL (0.006514)[0m   [0mCOMMIT[0m
+  [4;36;1mUser Load (0.000541)[0m   [0;1mSELECT * FROM "users" WHERE (user_username = 'sanderm' AND user_password = '014178727b1c731c3f878588239f6bde83eb55da' ) LIMIT 1[0m
+Redirected to http://localhost:3000/map
+Completed in 0.03577 (27 reqs/sec) | DB: 0.00932 (26%) | 302 Found [http://localhost/account/signup]
+
+
+Processing MapController#index (for 127.0.0.1 at 2008-07-24 00:02:19) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BiIL
+bm90aWNlIhZTaWdudXAgc3VjY2Vzc2Z1bAY6CkB1c2VkewZAJEY6DGNzcmZf
+aWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNhZTUwZDdl--47ddb9a3809f8eabbc728bbbbfc00014e02005c6
+  Parameters: {"action"=>"index", "controller"=>"map"}
+Rendering template within layouts/default
+Rendering map/index
+Completed in 0.01529 (65 reqs/sec) | Rendering: 0.01281 (83%) | DB: 0.00000 (0%) | 200 OK [http://localhost/map]
+
+
+Processing MapController#index (for 127.0.0.1 at 2008-07-24 00:02:21) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BiIL
+bm90aWNlIhZTaWdudXAgc3VjY2Vzc2Z1bAY6CkB1c2VkewZAJFQ6DGNzcmZf
+aWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNhZTUwZDdl--0ce0334daec45bf00f64ea578c483d66aace8eeb
+  Parameters: {"format"=>"xml", "action"=>"index", "id"=>"stianpr", "controller"=>"map"}
+Rendering template within layouts/default
+Rendering map/index
+
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #2 of map/index.xml.builder:
+1: xml.areas {
+2: 	@area.each do |a|
+3: 		xml.area(:id => a.id, :lat => a.area_point_lat, 
+4: 					:lng => a.area_point_lng, 
+5: 					:rad => a.area_point_rad)
+
+    app/views/map/index.xml.builder:2:in `_run_builder_47app47views47map47index46xml46builder'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/vendor/builder-2.1.2/builder/xmlbase.rb:134:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/vendor/builder-2.1.2/builder/xmlbase.rb:134:in `_nested_structures'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/vendor/builder-2.1.2/builder/xmlbase.rb:58:in `method_missing'
+    app/views/map/index.xml.builder:1:in `_run_builder_47app47views47map47index46xml46builder'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1168:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:02:41) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"create", "lng"=>"10.550651550292969", "controller"=>"map", "lat"=>"59.922850343534215", "rad"=>"110"}
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000817)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:02:41.227157', '2008-07-23 22:02:41.227157', 10.550651550293, 59.9228503435342, NULL, 1, 110.0)[0m
+  [4;35;1mSQL (0.000205)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.003269)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02534 (39 reqs/sec) | Rendering: 0.00110 (4%) | DB: 0.00440 (17%) | 200 OK [http://localhost/map/create/59.922850343534215/10.550651550292969/110]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:02:43) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"update", "id"=>"1", "lng"=>"10.550651550292969", "controller"=>"map", "lat"=>"59.922850343534215", "rad"=>"999.4849626827948"}
+  [4;35;1mArea Load (0.000519)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 1) [0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000447)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:02:43.526892', "area_point_lat" = 59.9228503435342, "area_point_rad" = 999.484962682795, "area_point_lng" = 10.550651550293 WHERE "id" = 1[0m
+  [4;36;1mSQL (0.001308)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01675 (59 reqs/sec) | Rendering: 0.00081 (4%) | DB: 0.00238 (14%) | 200 OK [http://localhost/map/update/1/59.922850343534215/10.550651550292969/999.4849626827948]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:02:48) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"update", "id"=>"1", "lng"=>"10.550651550292969", "controller"=>"map", "lat"=>"59.922850343534215", "rad"=>"2030.3128895132065"}
+  [4;35;1mArea Load (0.000333)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 1) [0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000397)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:02:48.717821', "area_point_lat" = 59.9228503435342, "area_point_rad" = 2030.31288951321, "area_point_lng" = 10.550651550293 WHERE "id" = 1[0m
+  [4;36;1mSQL (0.001869)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01849 (54 reqs/sec) | Rendering: 0.00093 (5%) | DB: 0.00271 (14%) | 200 OK [http://localhost/map/update/1/59.922850343534215/10.550651550292969/2030.3128895132065]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:09:17) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"create", "lng"=>"10.616912841796875", "controller"=>"map", "lat"=>"59.91975309063614", "rad"=>"110"}
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000292)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:09:17.065466', '2008-07-23 22:09:17.065466', 10.6169128417969, 59.9197530906361, NULL, 1, 110.0)[0m
+  [4;35;1mSQL (0.000130)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.002331)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02355 (42 reqs/sec) | Rendering: 0.00075 (3%) | DB: 0.00286 (12%) | 200 OK [http://localhost/map/create/59.91975309063614/10.616912841796875/110]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:09:19) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"update", "id"=>"2", "lng"=>"10.616912841796875", "controller"=>"map", "lat"=>"59.91975309063614", "rad"=>"1244.3154535964723"}
+  [4;35;1mArea Load (0.000323)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 2) [0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000393)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:09:19.646654', "area_point_lat" = 59.9197530906361, "area_point_rad" = 1244.31545359647, "area_point_lng" = 10.6169128417969 WHERE "id" = 2[0m
+  [4;36;1mSQL (0.002942)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01824 (54 reqs/sec) | Rendering: 0.00080 (4%) | DB: 0.00376 (20%) | 200 OK [http://localhost/map/update/2/59.91975309063614/10.616912841796875/1244.3154535964723]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:09:25) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"create", "lng"=>"10.590734481811523", "controller"=>"map", "lat"=>"59.92100063004424", "rad"=>"90"}
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000292)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:09:25.511501', '2008-07-23 22:09:25.511501', 10.5907344818115, 59.9210006300442, NULL, 1, 90.0)[0m
+  [4;35;1mSQL (0.000129)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.019537)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.09605 (10 reqs/sec) | Rendering: 0.00077 (0%) | DB: 0.02008 (20%) | 200 OK [http://localhost/map/create/59.92100063004424/10.590734481811523/90]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:09:49) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"create", "lng"=>"10.601634979248047", "controller"=>"map", "lat"=>"59.932656404078585", "rad"=>"80"}
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000256)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:09:49.513885', '2008-07-23 22:09:49.513885', 10.601634979248, 59.9326564040786, NULL, 1, 80.0)[0m
+  [4;35;1mSQL (0.000094)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.002255)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02325 (43 reqs/sec) | Rendering: 0.00075 (3%) | DB: 0.00271 (11%) | 200 OK [http://localhost/map/create/59.932656404078585/10.601634979248047/80]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:09:52) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.601634979248047", "controller"=>"map", "lat"=>"59.932656404078585", "rad"=>"806.1140434204397"}
+  [4;35;1mArea Load (0.000324)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000405)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:09:52.249475', "area_point_lat" = 59.9326564040786, "area_point_rad" = 806.11404342044, "area_point_lng" = 10.601634979248 WHERE "id" = 4[0m
+  [4;36;1mSQL (0.003521)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01882 (53 reqs/sec) | Rendering: 0.00080 (4%) | DB: 0.00436 (23%) | 200 OK [http://localhost/map/update/4/59.932656404078585/10.601634979248047/806.1140434204397]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:09:59) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.601634979248047", "controller"=>"map", "lat"=>"59.932656404078585", "rad"=>"2694.8081810303765"}
+  [4;35;1mArea Load (0.000351)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000498)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:09:59.151246', "area_point_lat" = 59.9326564040786, "area_point_rad" = 2694.80818103038, "area_point_lng" = 10.601634979248 WHERE "id" = 4[0m
+  [4;36;1mSQL (0.000891)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01998 (50 reqs/sec) | Rendering: 0.00079 (3%) | DB: 0.00185 (9%) | 200 OK [http://localhost/map/update/4/59.932656404078585/10.601634979248047/2694.8081810303765]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:10:05) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.59854507446289", "controller"=>"map", "lat"=>"59.92947405300099", "rad"=>"2694.8081810303765"}
+  [4;35;1mArea Load (0.000345)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000392)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:10:05.958222', "area_point_lat" = 59.929474053001, "area_point_rad" = 2694.80818103038, "area_point_lng" = 10.5985450744629 WHERE "id" = 4[0m
+  [4;36;1mSQL (0.002787)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01815 (55 reqs/sec) | Rendering: 0.00083 (4%) | DB: 0.00363 (20%) | 200 OK [http://localhost/map/update/4/59.92947405300099/10.59854507446289/2694.8081810303765]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:10:12) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"update", "id"=>"4", "lng"=>"10.596485137939453", "controller"=>"map", "lat"=>"59.92861390570686", "rad"=>"2694.8081810303765"}
+  [4;35;1mArea Load (0.000328)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 4) [0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000392)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:10:12.559070', "area_point_lat" = 59.9286139057069, "area_point_rad" = 2694.80818103038, "area_point_lng" = 10.5964851379395 WHERE "id" = 4[0m
+  [4;36;1mSQL (0.003583)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01880 (53 reqs/sec) | Rendering: 0.00081 (4%) | DB: 0.00441 (23%) | 200 OK [http://localhost/map/update/4/59.92861390570686/10.596485137939453/2694.8081810303765]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:11:44) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"update", "id"=>"2", "lng"=>"10.616912841796875", "controller"=>"map", "lat"=>"59.91975309063614", "rad"=>"1656.8907012586792"}
+  [4;35;1mArea Load (0.000342)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 2) [0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000397)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:11:44.149621', "area_point_lat" = 59.9197530906361, "area_point_rad" = 1656.89070125868, "area_point_lng" = 10.6169128417969 WHERE "id" = 2[0m
+  [4;36;1mSQL (0.004597)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02327 (42 reqs/sec) | Rendering: 0.00098 (4%) | DB: 0.00544 (23%) | 200 OK [http://localhost/map/update/2/59.91975309063614/10.616912841796875/1656.8907012586792]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:13:12) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"update", "id"=>"3", "lng"=>"10.578804016113281", "controller"=>"map", "lat"=>"59.904090331089", "rad"=>"90"}
+  [4;35;1mArea Load (0.000347)[0m   [0mSELECT * FROM "areas" WHERE ("areas"."id" = 3) [0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Update (0.000380)[0m   [0mUPDATE "areas" SET "updated_at" = '2008-07-23 22:13:12.914236', "area_point_lat" = 59.904090331089, "area_point_lng" = 10.5788040161133 WHERE "id" = 3[0m
+  [4;36;1mSQL (0.003849)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02040 (49 reqs/sec) | Rendering: 0.00073 (3%) | DB: 0.00469 (22%) | 200 OK [http://localhost/map/update/3/59.904090331089/10.578804016113281/90]
+
+
+Processing AccountController#logout (for 127.0.0.1 at 2008-07-24 00:13:24) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"logout", "controller"=>"account"}
+Redirected to http://localhost:3000/
+Completed in 0.00259 (385 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/account/logout]
+
+
+Processing AccountController#index (for 127.0.0.1 at 2008-07-24 00:13:24) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcjAiCmZsYXNoSUM6J0FjdGlvbkNvbnRy
+b2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6DGNzcmZfaWQi
+JTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNhZTUwZDdl--28e7aaa50761635cd0eb1994edd7648baaa19ff8
+  Parameters: {"action"=>"index", "controller"=>"account"}
+Rendering template within layouts/default
+Rendering account/index
+Completed in 0.00407 (245 reqs/sec) | Rendering: 0.00216 (53%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2008-07-24 00:13:32) [POST]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcjAiCmZsYXNoSUM6J0FjdGlvbkNvbnRy
+b2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6DGNzcmZfaWQi
+JTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNhZTUwZDdl--28e7aaa50761635cd0eb1994edd7648baaa19ff8
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"6ed8e5e408f2d4db8609d57ebc4503420366b9d9", "action"=>"login", "controller"=>"account", "user"=>{"user_password"=>"kpl897jii", "user_username"=>"sanderm"}}
+  [4;35;1mUser Load (0.000927)[0m   [0mSELECT * FROM "users" WHERE (user_username = 'sanderm' AND user_password = '014178727b1c731c3f878588239f6bde83eb55da' ) LIMIT 1[0m
+Redirected to http://localhost:3000/map/show/sanderm
+Completed in 0.01508 (66 reqs/sec) | DB: 0.00093 (6%) | 302 Found [http://localhost/account/login]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:13:32) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoL
+bm90aWNlIhVMb2dpbiBzdWNjZXNzZnVsBjoKQHVzZWR7BjsRRjoMY3NyZl9p
+ZCIlNWM4ZDhmMDQ5Y2U4ZWNlZDc1OWM4OWYyM2FlNTBkN2U=--4df3e1917439e1f3598eb70badaaa5255fa3f3b0
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000429)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.02641 (37 reqs/sec) | Rendering: 0.01342 (50%) | DB: 0.00043 (1%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:13:33) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoL
+bm90aWNlIhVMb2dpbiBzdWNjZXNzZnVsBjoKQHVzZWR7BjsRVDoMY3NyZl9p
+ZCIlNWM4ZDhmMDQ5Y2U4ZWNlZDc1OWM4OWYyM2FlNTBkN2U=--6e3ff6cfac543c99055c9c2c298b8903f7eba7e0
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000359)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01608 (62 reqs/sec) | Rendering: 0.00514 (31%) | DB: 0.00036 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
