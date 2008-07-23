@@ -6,6 +6,9 @@ Make placement of circles equal size when we're on diffrent zoom levels
 google maps zoom levels:
 2000 1000 500 200 100 50 20 10 5 2 2 1 500 200 100 50
 
+(1.9^(22-zom level))*10
+(1.9^(22-17))*10
+
 Output circle/points in a standar xml format (kml format dosnt support real circles)
 
 Make it possible to embedd a map into another website
@@ -28,4 +31,4 @@ edit info for a public point, and automaticly subscribe to it
 
 set up opengis
 
-
+write a INSTALL file
