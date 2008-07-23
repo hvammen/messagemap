@@ -35,7 +35,7 @@
 	  GEvent.addListener(myMap, "click", function(overlay, point) {
 	    if (point) {
 			
-		  circleRad = (1.9^(22-myMap.getZoom()))*10;
+		  circleRad = Math.pow(1.9,(22-myMap.getZoom()))*2;
 	      singleClick = !singleClick;
 	      setTimeout("if (singleClick) createCircle(new GLatLng("+ point.y + ", " + point.x +"), " + circleRad +");", 300);
 	    }

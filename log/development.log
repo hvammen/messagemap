@@ -41187,3 +41187,1996 @@ ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
   [4;35;1mSQL (0.001747)[0m   [0mCOMMIT[0m
 Rendering map/create.xml.builder
 Completed in 0.01847 (54 reqs/sec) | Rendering: 0.00081 (4%) | DB: 0.00262 (14%) | 200 OK [http://localhost/map/update/2/59.930592211142276/10.634078979492188/1656.89070125868]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:43:52) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"create", "lng"=>"10.520095825195312", "controller"=>"map", "lat"=>"59.899097349342924", "rad"=>"110"}
+  [4;36;1mSQL (0.000107)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000422)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:43:52.959098', '2008-07-23 22:43:52.959098', 10.5200958251953, 59.8990973493429, NULL, 1, 110.0)[0m
+  [4;36;1mSQL (0.000295)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.007876)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.08031 (12 reqs/sec) | Rendering: 0.05181 (64%) | DB: 0.00870 (10%) | 200 OK [http://localhost/map/create/59.899097349342924/10.520095825195312/110]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:43:55) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"update", "id"=>"6", "lng"=>"10.520095825195312", "controller"=>"map", "lat"=>"59.899097349342924", "rad"=>"1121.0087670446867"}
+  [4;36;1mArea Load (0.000357)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 6) [0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000396)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:43:55.021135', "area_point_lat" = 59.8990973493429, "area_point_rad" = 1121.00876704469, "area_point_lng" = 10.5200958251953 WHERE "id" = 6[0m
+  [4;35;1mSQL (0.003629)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01884 (53 reqs/sec) | Rendering: 0.00082 (4%) | DB: 0.00449 (23%) | 200 OK [http://localhost/map/update/6/59.899097349342924/10.520095825195312/1121.0087670446867]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:44:42) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000373)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01611 (62 reqs/sec) | Rendering: 0.00412 (25%) | DB: 0.00037 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:44:43) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000372)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.07711 (12 reqs/sec) | Rendering: 0.06617 (85%) | DB: 0.00037 (0%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:44:46) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"create", "lng"=>"10.588417053222656", "controller"=>"map", "lat"=>"59.94693022208191", "rad"=>"1100"}
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000277)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:44:46.156729', '2008-07-23 22:44:46.156729', 10.5884170532227, 59.9469302220819, NULL, 1, 1100.0)[0m
+  [4;36;1mSQL (0.001158)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002797)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02546 (39 reqs/sec) | Rendering: 0.00108 (4%) | DB: 0.00434 (17%) | 200 OK [http://localhost/map/create/59.94693022208191/10.588417053222656/1100]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:44:58) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"create", "lng"=>"10.810546875", "controller"=>"map", "lat"=>"60.03055770537328", "rad"=>"1200"}
+  [4;36;1mSQL (0.000115)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000288)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:44:58.499388', '2008-07-23 22:44:58.499388', 10.810546875, 60.0305577053733, NULL, 1, 1200.0)[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002638)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02316 (43 reqs/sec) | Rendering: 0.00075 (3%) | DB: 0.00317 (13%) | 200 OK [http://localhost/map/create/60.03055770537328/10.810546875/1200]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:45:08) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"create", "lng"=>"11.2060546875", "controller"=>"map", "lat"=>"60.37586010056013", "rad"=>"1400"}
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000290)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:45:08.326660', '2008-07-23 22:45:08.326660', 11.2060546875, 60.3758601005601, NULL, 1, 1400.0)[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002728)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02311 (43 reqs/sec) | Rendering: 0.00076 (3%) | DB: 0.00326 (14%) | 200 OK [http://localhost/map/create/60.37586010056013/11.2060546875/1400]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:45:19) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000396)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01556 (64 reqs/sec) | Rendering: 0.00402 (25%) | DB: 0.00040 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:45:20) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000399)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01805 (55 reqs/sec) | Rendering: 0.00649 (35%) | DB: 0.00040 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:45:23) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"create", "lng"=>"10.635452270507812", "controller"=>"map", "lat"=>"59.955525942420515", "rad"=>"900"}
+  [4;36;1mSQL (0.000115)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000303)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:45:23.995650', '2008-07-23 22:45:23.995650', 10.6354522705078, 59.9555259424205, NULL, 1, 900.0)[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.001111)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.08328 (12 reqs/sec) | Rendering: 0.00081 (0%) | DB: 0.00166 (1%) | 200 OK [http://localhost/map/create/59.955525942420515/10.635452270507812/900]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:45:30) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"create", "lng"=>"10.68695068359375", "controller"=>"map", "lat"=>"60.126459759546805", "rad"=>"1400"}
+  [4;36;1mSQL (0.000107)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000300)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:45:30.472315', '2008-07-23 22:45:30.472315', 10.6869506835938, 60.1264597595468, NULL, 1, 1400.0)[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002112)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02322 (43 reqs/sec) | Rendering: 0.00076 (3%) | DB: 0.00265 (11%) | 200 OK [http://localhost/map/create/60.126459759546805/10.68695068359375/1400]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:45:38) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000406)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01552 (64 reqs/sec) | Rendering: 0.00413 (26%) | DB: 0.00041 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:45:38) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000416)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.07894 (12 reqs/sec) | Rendering: 0.00748 (9%) | DB: 0.00042 (0%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:45:42) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"create", "lng"=>"10.597686767578125", "controller"=>"map", "lat"=>"59.95965109641549", "rad"=>"1200"}
+  [4;36;1mSQL (0.000107)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000286)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:45:42.406449', '2008-07-23 22:45:42.406449', 10.5976867675781, 59.9596510964155, NULL, 1, 1200.0)[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002104)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02317 (43 reqs/sec) | Rendering: 0.00077 (3%) | DB: 0.00263 (11%) | 200 OK [http://localhost/map/create/59.95965109641549/10.597686767578125/1200]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:45:48) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhNAdXNlcnF1aWV0dGlt
+ZTA6FkBhdHRyaWJ1dGVzX2NhY2hlewA6E0B1c2VycHJpdmFjaWVzMDoOQHVz
+ZXJtc2dzMDoQQGF0dHJpYnV0ZXN7ESIRdXNlcl93ZWJzaXRlIgxodHRwOi8v
+Ig91c2VyX2JpcnRoIg8wOS8wOC8xOTg0Ig9jcmVhdGVkX2F0Ih8yMDA4LTA3
+LTIzIDIyOjAyOjE5LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAy
+MjowMjoxOS40OTkyNzkiB2lkIgYxIg91c2VyX2Fib3V0IgAiD3VzZXJfcGhv
+bmUiACIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iDXVzZXJfc2V4IgZt
+IhJ1c2VyX3Bhc3N3b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlm
+NmJkZTgzZWI1NWRhIhJ1c2VyX3VzZXJuYW1lIgxzYW5kZXJtIg91c2VyX2Vt
+YWlsIhZzYW5kZXJtQG9ubGluZS5ubzoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--42253c4bce78c47ef24f8430bb8c4826326de10d
+  Parameters: {"action"=>"create", "lng"=>"10.63751220703125", "controller"=>"map", "lat"=>"60.05250276915092", "rad"=>"1100"}
+  [4;36;1mSQL (0.000107)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000296)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:45:48.202257', '2008-07-23 22:45:48.202257', 10.6375122070312, 60.0525027691509, NULL, 1, 1100.0)[0m
+  [4;36;1mSQL (0.000133)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.001251)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02183 (45 reqs/sec) | Rendering: 0.00075 (3%) | DB: 0.00179 (8%) | 200 OK [http://localhost/map/create/60.05250276915092/10.63751220703125/1100]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:46:25) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhNAdXNlcnF1aWV0dGltZTA6E0B1c2VycHJpdmFjaWVzMDoQQGF0
+dHJpYnV0ZXN7ESIPdXNlcl9iaXJ0aCIPMDkvMDgvMTk4NCIRdXNlcl93ZWJz
+aXRlIgxodHRwOi8vIg9jcmVhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5
+LjQ5OTI3OSIPdXBkYXRlZF9hdCIfMjAwOC0wNy0yMyAyMjowMjoxOS40OTky
+NzkiD3VzZXJfYWJvdXQiACIHaWQiBjEiD3VzZXJfcGhvbmUiACINdXNlcl9z
+ZXgiBm0iDnVzZXJfbmFtZSIUU2FuZGVyIEpvaGFuc2VuIhJ1c2VyX3Bhc3N3
+b3JkIi0wMTQxNzg3MjdiMWM3MzFjM2Y4Nzg1ODgyMzlmNmJkZTgzZWI1NWRh
+Ig91c2VyX2VtYWlsIhZzYW5kZXJtQG9ubGluZS5ubyISdXNlcl91c2VybmFt
+ZSIMc2FuZGVybToOQHVzZXJtc2dzMDoRQHVzZXJmcmllbmRzMDoYQHVzZXJk
+ZXZpY2Vtc2d0eXBlczA6DkB1c2VydGFnczA6EUB1c2VyZGV2aWNlczAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--9bfc9300e9ea4f4ce1cf62864b03ce304a55683a
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mSQL (0.000074)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.000072)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mArea Load (0.000861)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.03215 (31 reqs/sec) | Rendering: 0.01490 (46%) | DB: 0.00101 (3%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:46:25) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000420)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01977 (50 reqs/sec) | Rendering: 0.00839 (42%) | DB: 0.00042 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:46:29) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.667037963867188", "controller"=>"map", "lat"=>"59.94280348446257", "rad"=>"2800"}
+  [4;36;1mSQL (0.000119)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000491)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:46:29.721956', '2008-07-23 22:46:29.721956', 10.6670379638672, 59.9428034844626, NULL, 1, 2800.0)[0m
+  [4;36;1mSQL (0.000238)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.005148)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02842 (35 reqs/sec) | Rendering: 0.00110 (3%) | DB: 0.00600 (21%) | 200 OK [http://localhost/map/create/59.94280348446257/10.667037963867188/2800]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:46:36) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.717849731445312", "controller"=>"map", "lat"=>"59.972195283534425", "rad"=>"2900"}
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000285)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:46:36.424682', '2008-07-23 22:46:36.424682', 10.7178497314453, 59.9721952835344, NULL, 1, 2900.0)[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002223)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02281 (43 reqs/sec) | Rendering: 0.00075 (3%) | DB: 0.00274 (12%) | 200 OK [http://localhost/map/create/59.972195283534425/10.717849731445312/2900]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:47:44) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000434)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01605 (62 reqs/sec) | Rendering: 0.00434 (27%) | DB: 0.00043 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:47:46) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000435)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.02103 (47 reqs/sec) | Rendering: 0.00851 (40%) | DB: 0.00044 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:47:49) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.646095275878906", "controller"=>"map", "lat"=>"59.893931405849955", "rad"=>"18000"}
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000282)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:47:49.318625', '2008-07-23 22:47:49.318625', 10.6460952758789, 59.89393140585, NULL, 1, 18000.0)[0m
+  [4;36;1mSQL (0.000472)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002413)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02337 (42 reqs/sec) | Rendering: 0.00074 (3%) | DB: 0.00327 (14%) | 200 OK [http://localhost/map/create/59.893931405849955/10.646095275878906/18000]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:48:04) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.56884765625", "controller"=>"map", "lat"=>"60.1442394457484", "rad"=>"17900"}
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000254)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:48:04.681903', '2008-07-23 22:48:04.681903', 10.56884765625, 60.1442394457484, NULL, 1, 17900.0)[0m
+  [4;36;1mSQL (0.000094)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002797)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02470 (40 reqs/sec) | Rendering: 0.00155 (6%) | DB: 0.00325 (13%) | 200 OK [http://localhost/map/create/60.1442394457484/10.56884765625/17900]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:49:13) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000457)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01668 (59 reqs/sec) | Rendering: 0.00498 (29%) | DB: 0.00046 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:49:14) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000458)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.02068 (48 reqs/sec) | Rendering: 0.00915 (44%) | DB: 0.00046 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:18) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"17", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.003097)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'17')) [0m
+Rendering map/destroy
+Completed in 0.01312 (76 reqs/sec) | Rendering: 0.00076 (5%) | DB: 0.00310 (23%) | 200 OK [http://localhost/map/destroy/17]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:18) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"16", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.002574)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'16')) [0m
+Rendering map/destroy
+Completed in 0.01154 (86 reqs/sec) | Rendering: 0.00058 (5%) | DB: 0.00257 (22%) | 200 OK [http://localhost/map/destroy/16]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:19) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"15", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002319)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'15')) [0m
+Rendering map/destroy
+Completed in 0.01164 (85 reqs/sec) | Rendering: 0.00047 (4%) | DB: 0.00232 (19%) | 200 OK [http://localhost/map/destroy/15]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:19) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"14", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.002910)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'14')) [0m
+Rendering map/destroy
+Completed in 0.01220 (81 reqs/sec) | Rendering: 0.00050 (4%) | DB: 0.00291 (23%) | 200 OK [http://localhost/map/destroy/14]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:19) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"13", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002582)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'13')) [0m
+Rendering map/destroy
+Completed in 0.01527 (65 reqs/sec) | Rendering: 0.00047 (3%) | DB: 0.00258 (16%) | 200 OK [http://localhost/map/destroy/13]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:20) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"12", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.003601)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'12')) [0m
+Rendering map/destroy
+Completed in 0.01313 (76 reqs/sec) | Rendering: 0.00048 (3%) | DB: 0.00360 (27%) | 200 OK [http://localhost/map/destroy/12]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:20) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"11", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002607)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'11')) [0m
+Rendering map/destroy
+Completed in 0.01182 (84 reqs/sec) | Rendering: 0.00049 (4%) | DB: 0.00261 (22%) | 200 OK [http://localhost/map/destroy/11]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:20) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"10", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.002581)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'10')) [0m
+Rendering map/destroy
+Completed in 0.01149 (87 reqs/sec) | Rendering: 0.00048 (4%) | DB: 0.00258 (22%) | 200 OK [http://localhost/map/destroy/10]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:20) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"9", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002598)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'9')) [0m
+Rendering map/destroy
+Completed in 0.01324 (75 reqs/sec) | Rendering: 0.00053 (4%) | DB: 0.00260 (19%) | 200 OK [http://localhost/map/destroy/9]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:22) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"8", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.008674)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'8')) [0m
+Rendering map/destroy
+Completed in 0.01798 (55 reqs/sec) | Rendering: 0.00048 (2%) | DB: 0.00867 (48%) | 200 OK [http://localhost/map/destroy/8]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:22) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"6", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.000599)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'6')) [0m
+Rendering map/destroy
+Completed in 0.00969 (103 reqs/sec) | Rendering: 0.00048 (4%) | DB: 0.00060 (6%) | 200 OK [http://localhost/map/destroy/6]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:23) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"2", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.007441)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'2')) [0m
+Rendering map/destroy
+Completed in 0.07107 (14 reqs/sec) | Rendering: 0.00051 (0%) | DB: 0.00744 (10%) | 200 OK [http://localhost/map/destroy/2]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:23) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002604)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'1')) [0m
+Rendering map/destroy
+Completed in 0.01488 (67 reqs/sec) | Rendering: 0.00054 (3%) | DB: 0.00260 (17%) | 200 OK [http://localhost/map/destroy/1]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:23) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"5", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.001281)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'5')) [0m
+Rendering map/destroy
+Completed in 0.01007 (99 reqs/sec) | Rendering: 0.00048 (4%) | DB: 0.00128 (12%) | 200 OK [http://localhost/map/destroy/5]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:24) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"3", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.003637)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'3')) [0m
+Rendering map/destroy
+Completed in 0.01287 (77 reqs/sec) | Rendering: 0.00050 (3%) | DB: 0.00364 (28%) | 200 OK [http://localhost/map/destroy/3]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:25) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"7", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.001673)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'7')) [0m
+Rendering map/destroy
+Completed in 0.01175 (85 reqs/sec) | Rendering: 0.00048 (4%) | DB: 0.00167 (14%) | 200 OK [http://localhost/map/destroy/7]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:25) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"4", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002681)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'4')) [0m
+Rendering map/destroy
+Completed in 0.01210 (82 reqs/sec) | Rendering: 0.00048 (3%) | DB: 0.00268 (22%) | 200 OK [http://localhost/map/destroy/4]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:49:27) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.583610534667969", "controller"=>"map", "lat"=>"59.93644042418626", "rad"=>"6131.066257800998"}
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000302)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:49:27.478343', '2008-07-23 22:49:27.478343', 10.583610534668, 59.9364404241863, NULL, 1, 6131.066257801)[0m
+  [4;35;1mSQL (0.000127)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.001697)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02205 (45 reqs/sec) | Rendering: 0.00078 (3%) | DB: 0.00224 (10%) | 200 OK [http://localhost/map/create/59.93644042418626/10.583610534667969/6131.066257800998]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:49:35) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.31341552734375", "controller"=>"map", "lat"=>"60.06484046010452", "rad"=>"42052.983462257034"}
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000295)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:49:35.974191', '2008-07-23 22:49:35.974191', 10.3134155273438, 60.0648404601045, NULL, 1, 42052.983462257)[0m
+  [4;35;1mSQL (0.000130)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.003359)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02452 (40 reqs/sec) | Rendering: 0.00080 (3%) | DB: 0.00389 (15%) | 200 OK [http://localhost/map/create/60.06484046010452/10.31341552734375/42052.983462257034]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:49:46) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000343)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01563 (63 reqs/sec) | Rendering: 0.00421 (26%) | DB: 0.00034 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:49:46) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000347)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01535 (65 reqs/sec) | Rendering: 0.00429 (27%) | DB: 0.00035 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:49) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"19", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.001161)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'19')) [0m
+Rendering map/destroy
+Completed in 0.01067 (93 reqs/sec) | Rendering: 0.00047 (4%) | DB: 0.00116 (10%) | 200 OK [http://localhost/map/destroy/19]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:50) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"18", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.003555)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'18')) [0m
+Rendering map/destroy
+Completed in 0.01270 (78 reqs/sec) | Rendering: 0.00047 (3%) | DB: 0.00356 (27%) | 200 OK [http://localhost/map/destroy/18]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:49:51) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.598373413085938", "controller"=>"map", "lat"=>"59.92147382237921", "rad"=>"3065.533128900499"}
+  [4;35;1mSQL (0.000240)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000298)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:49:51.386507', '2008-07-23 22:49:51.386507', 10.5983734130859, 59.9214738223792, NULL, 1, 3065.5331289005)[0m
+  [4;35;1mSQL (0.000122)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.003309)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02449 (40 reqs/sec) | Rendering: 0.00078 (3%) | DB: 0.00397 (16%) | 200 OK [http://localhost/map/create/59.92147382237921/10.598373413085938/3065.533128900499]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:49:59) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"20", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.003033)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'20')) [0m
+Rendering map/destroy
+Completed in 0.01313 (76 reqs/sec) | Rendering: 0.00064 (4%) | DB: 0.00303 (23%) | 200 OK [http://localhost/map/destroy/20]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:00) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000318)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01592 (62 reqs/sec) | Rendering: 0.00401 (25%) | DB: 0.00032 (1%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:01) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000308)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01100 (90 reqs/sec) | Rendering: 0.00044 (3%) | DB: 0.00031 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:50:02) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.572624206542969", "controller"=>"map", "lat"=>"59.935924446865464", "rad"=>"1839.3198773402992"}
+  [4;36;1mSQL (0.000109)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000290)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:50:02.931395', '2008-07-23 22:50:02.931395', 10.572624206543, 59.9359244468655, NULL, 1, 1839.3198773403)[0m
+  [4;36;1mSQL (0.000150)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.003190)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02513 (39 reqs/sec) | Rendering: 0.00080 (3%) | DB: 0.00374 (14%) | 200 OK [http://localhost/map/create/59.935924446865464/10.572624206542969/1839.3198773402992]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:50:14) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"update", "id"=>"21", "lng"=>"10.572624206542969", "controller"=>"map", "lat"=>"59.935924446865464", "rad"=>"993.9653876054831"}
+  [4;36;1mArea Load (0.000242)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 21) [0m
+  [4;35;1mSQL (0.000074)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000284)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:50:14.276566', "area_point_lat" = 59.9359244468655, "area_point_rad" = 993.965387605483, "area_point_lng" = 10.572624206543 WHERE "id" = 21[0m
+  [4;35;1mSQL (0.000862)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01755 (56 reqs/sec) | Rendering: 0.00200 (11%) | DB: 0.00146 (8%) | 200 OK [http://localhost/map/update/21/59.935924446865464/10.572624206542969/993.9653876054831]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:50:18) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"21", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.003816)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'21')) [0m
+Rendering map/destroy
+Completed in 0.01303 (76 reqs/sec) | Rendering: 0.00049 (3%) | DB: 0.00382 (29%) | 200 OK [http://localhost/map/destroy/21]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:20) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000299)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01604 (62 reqs/sec) | Rendering: 0.00410 (25%) | DB: 0.00030 (1%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:20) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000309)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01091 (91 reqs/sec) | Rendering: 0.00043 (3%) | DB: 0.00031 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:50:22) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.579490661621094", "controller"=>"map", "lat"=>"59.93678440460705", "rad"=>"1226.2132515601995"}
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+  [4;36;1mArea Create (0.000295)[0m   [0;1mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:50:22.342546', '2008-07-23 22:50:22.342546', 10.5794906616211, 59.9367844046071, NULL, 1, 1226.2132515602)[0m
+  [4;35;1mSQL (0.000128)[0m   [0mSELECT currval('areas_id_seq')[0m
+  [4;36;1mSQL (0.003188)[0m   [0;1mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02498 (40 reqs/sec) | Rendering: 0.00101 (4%) | DB: 0.00373 (14%) | 200 OK [http://localhost/map/create/59.93678440460705/10.579490661621094/1226.2132515601995]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:28) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000326)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01576 (63 reqs/sec) | Rendering: 0.00433 (27%) | DB: 0.00033 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:28) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000348)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01482 (67 reqs/sec) | Rendering: 0.00391 (26%) | DB: 0.00035 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:50:31) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"22", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.004083)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'22')) [0m
+Rendering map/destroy
+Completed in 0.01292 (77 reqs/sec) | Rendering: 0.00048 (3%) | DB: 0.00408 (31%) | 200 OK [http://localhost/map/destroy/22]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:50:32) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.5743408203125", "controller"=>"map", "lat"=>"59.93970809413821", "rad"=>"613.1066257800998"}
+  [4;36;1mSQL (0.000118)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000260)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:50:32.881622', '2008-07-23 22:50:32.881622', 10.5743408203125, 59.9397080941382, NULL, 1, 613.1066257801)[0m
+  [4;36;1mSQL (0.000093)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.003455)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02573 (38 reqs/sec) | Rendering: 0.00112 (4%) | DB: 0.00393 (15%) | 200 OK [http://localhost/map/create/59.93970809413821/10.5743408203125/613.1066257800998]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:50:45) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.478553771972656", "controller"=>"map", "lat"=>"59.92749568088279", "rad"=>"322.68769777899985"}
+  [4;36;1mSQL (0.000108)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000283)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:50:45.278121', '2008-07-23 22:50:45.278121', 10.4785537719727, 59.9274956808828, NULL, 1, 322.687697779)[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002447)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02296 (43 reqs/sec) | Rendering: 0.00079 (3%) | DB: 0.00296 (12%) | 200 OK [http://localhost/map/create/59.92749568088279/10.478553771972656/322.68769777899985]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:52) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;36;1mArea Load (0.000339)[0m   [0;1mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering template within layouts/default
+Rendering map/show
+Completed in 0.01558 (64 reqs/sec) | Rendering: 0.00455 (29%) | DB: 0.00034 (2%) | 200 OK [http://localhost/map/show/sanderm]
+
+
+Processing MapController#show (for 127.0.0.1 at 2008-07-24 00:50:53) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"format"=>"xml", "action"=>"show", "id"=>"sanderm", "controller"=>"map"}
+  [4;35;1mArea Load (0.000348)[0m   [0mSELECT id, area_point_lat, area_point_lng, area_point_rad FROM "areas" WHERE (area_user_id = 1) [0m
+Rendering map/show.xml.builder
+Completed in 0.01639 (61 reqs/sec) | Rendering: 0.00501 (30%) | DB: 0.00035 (2%) | 200 OK [http://localhost/map/show/sanderm/xml]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:50:55) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.552711486816406", "controller"=>"map", "lat"=>"59.94847761626091", "rad"=>"1226.2132515601995"}
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000315)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:50:55.947714', '2008-07-23 22:50:55.947714', 10.5527114868164, 59.9484776162609, NULL, 1, 1226.2132515602)[0m
+  [4;36;1mSQL (0.000134)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.001588)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02224 (44 reqs/sec) | Rendering: 0.00079 (3%) | DB: 0.00215 (9%) | 200 OK [http://localhost/map/create/59.94847761626091/10.552711486816406/1226.2132515601995]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:50:58) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"update", "id"=>"25", "lng"=>"10.609016418457031", "controller"=>"map", "lat"=>"59.93145230714296", "rad"=>"1226.2132515601995"}
+  [4;36;1mArea Load (0.000367)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 25) [0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000913)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:50:58.447443', "area_point_lat" = 59.931452307143, "area_point_rad" = 1226.2132515602, "area_point_lng" = 10.609016418457 WHERE "id" = 25[0m
+  [4;35;1mSQL (0.003389)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02001 (49 reqs/sec) | Rendering: 0.00080 (4%) | DB: 0.00478 (23%) | 200 OK [http://localhost/map/update/25/59.93145230714296/10.609016418457031/1226.2132515601995]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:51:00) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.575714111328125", "controller"=>"map", "lat"=>"59.90081915198074", "rad"=>"1226.2132515601995"}
+  [4;36;1mSQL (0.000105)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000298)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:51:00.498581', '2008-07-23 22:51:00.498581', 10.5757141113281, 59.9008191519807, NULL, 1, 1226.2132515602)[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.001458)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02469 (40 reqs/sec) | Rendering: 0.00093 (3%) | DB: 0.00199 (8%) | 200 OK [http://localhost/map/create/59.90081915198074/10.575714111328125/1226.2132515601995]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:51:01) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.641975402832031", "controller"=>"map", "lat"=>"59.901852190719346", "rad"=>"1226.2132515601995"}
+  [4;36;1mSQL (0.000111)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000286)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:51:01.706994', '2008-07-23 22:51:01.706994', 10.641975402832, 59.9018521907193, NULL, 1, 1226.2132515602)[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002158)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02453 (40 reqs/sec) | Rendering: 0.00081 (3%) | DB: 0.00268 (10%) | 200 OK [http://localhost/map/create/59.901852190719346/10.641975402832031/1226.2132515601995]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:51:03) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"update", "id"=>"27", "lng"=>"10.608673095703125", "controller"=>"map", "lat"=>"59.91596716672744", "rad"=>"1226.2132515601995"}
+  [4;36;1mArea Load (0.000567)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 27) [0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000393)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:51:03.284518', "area_point_lat" = 59.9159671667274, "area_point_rad" = 1226.2132515602, "area_point_lng" = 10.6086730957031 WHERE "id" = 27[0m
+  [4;35;1mSQL (0.003146)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01886 (53 reqs/sec) | Rendering: 0.00079 (4%) | DB: 0.00421 (22%) | 200 OK [http://localhost/map/update/27/59.91596716672744/10.608673095703125/1226.2132515601995]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:51:04) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"update", "id"=>"26", "lng"=>"10.58258056640625", "controller"=>"map", "lat"=>"59.92302240466373", "rad"=>"1226.2132515601995"}
+  [4;36;1mArea Load (0.000328)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 26) [0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000394)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:51:04.963921', "area_point_lat" = 59.9230224046637, "area_point_rad" = 1226.2132515602, "area_point_lng" = 10.5825805664062 WHERE "id" = 26[0m
+  [4;35;1mSQL (0.003554)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01975 (50 reqs/sec) | Rendering: 0.00080 (4%) | DB: 0.00439 (22%) | 200 OK [http://localhost/map/update/26/59.92302240466373/10.58258056640625/1226.2132515601995]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:51:17) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"9.4921875", "controller"=>"map", "lat"=>"61.01572481397616", "rad"=>"109607.73715569596"}
+  [4;36;1mSQL (0.000106)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000283)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:51:17.633437', '2008-07-23 22:51:17.633437', 9.4921875, 61.0157248139762, NULL, 1, 109607.737155696)[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002723)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02358 (42 reqs/sec) | Rendering: 0.00078 (3%) | DB: 0.00324 (13%) | 200 OK [http://localhost/map/create/61.01572481397616/9.4921875/109607.73715569596]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:51:25) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"52.03125", "controller"=>"map", "lat"=>"13.923403897723347", "rad"=>"2713996.083634815"}
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000293)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:51:25.016065', '2008-07-23 22:51:25.016065', 52.03125, 13.9234038977233, NULL, 1, 2713996.08363482)[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.000852)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02308 (43 reqs/sec) | Rendering: 0.00076 (3%) | DB: 0.00138 (5%) | 200 OK [http://localhost/map/create/13.923403897723347/52.03125/2713996.083634815]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:51:38) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"update", "id"=>"29", "lng"=>"4.21875", "controller"=>"map", "lat"=>"19.31114335506464", "rad"=>"2713996.083634815"}
+  [4;36;1mArea Load (0.000562)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 29) [0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000513)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:51:38.488496', "area_point_lat" = 19.3111433550646, "area_point_rad" = 2713996.08363482, "area_point_lng" = 4.21875 WHERE "id" = 29[0m
+  [4;35;1mSQL (0.002914)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.03141 (31 reqs/sec) | Rendering: 0.00079 (2%) | DB: 0.00410 (13%) | 200 OK [http://localhost/map/update/29/19.31114335506464/4.21875/2713996.083634815]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:51:43) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"27.421875", "controller"=>"map", "lat"=>"66.51326044311185", "rad"=>"751799.4691509184"}
+  [4;36;1mSQL (0.000109)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000317)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:51:43.398387', '2008-07-23 22:51:43.398387', 27.421875, 66.5132604431118, NULL, 1, 751799.469150918)[0m
+  [4;36;1mSQL (0.000127)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002849)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02517 (39 reqs/sec) | Rendering: 0.00117 (4%) | DB: 0.00340 (13%) | 200 OK [http://localhost/map/create/66.51326044311185/27.421875/751799.4691509184]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:02) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"30", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002931)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'30')) [0m
+Rendering map/destroy
+Completed in 0.01186 (84 reqs/sec) | Rendering: 0.00048 (4%) | DB: 0.00293 (24%) | 200 OK [http://localhost/map/destroy/30]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:03) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"29", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.002626)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'29')) [0m
+Rendering map/destroy
+Completed in 0.01227 (81 reqs/sec) | Rendering: 0.00053 (4%) | DB: 0.00263 (21%) | 200 OK [http://localhost/map/destroy/29]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:03) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"28", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.002338)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'28')) [0m
+Rendering map/destroy
+Completed in 0.01127 (88 reqs/sec) | Rendering: 0.00048 (4%) | DB: 0.00234 (20%) | 200 OK [http://localhost/map/destroy/28]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:04) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"27", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.003778)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'27')) [0m
+Rendering map/destroy
+Completed in 0.01451 (68 reqs/sec) | Rendering: 0.00119 (8%) | DB: 0.00378 (26%) | 200 OK [http://localhost/map/destroy/27]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:04) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"26", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.000572)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'26')) [0m
+Rendering map/destroy
+Completed in 0.01076 (92 reqs/sec) | Rendering: 0.00048 (4%) | DB: 0.00057 (5%) | 200 OK [http://localhost/map/destroy/26]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:04) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"25", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.000598)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'25')) [0m
+Rendering map/destroy
+Completed in 0.01055 (94 reqs/sec) | Rendering: 0.00060 (5%) | DB: 0.00060 (5%) | 200 OK [http://localhost/map/destroy/25]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:04) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"destroy", "id"=>"24", "controller"=>"map"}
+  [4;36;1mArea Delete all (0.001267)[0m   [0;1mDELETE FROM "areas" WHERE ("id" IN (E'24')) [0m
+Rendering map/destroy
+Completed in 0.01103 (90 reqs/sec) | Rendering: 0.00052 (4%) | DB: 0.00127 (11%) | 200 OK [http://localhost/map/destroy/24]
+
+
+Processing MapController#destroy (for 127.0.0.1 at 2008-07-24 00:52:05) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"destroy", "id"=>"23", "controller"=>"map"}
+  [4;35;1mArea Delete all (0.003788)[0m   [0mDELETE FROM "areas" WHERE ("id" IN (E'23')) [0m
+Rendering map/destroy
+Completed in 0.01277 (78 reqs/sec) | Rendering: 0.00049 (3%) | DB: 0.00379 (29%) | 200 OK [http://localhost/map/destroy/23]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:52:15) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"create", "lng"=>"10.476665496826172", "controller"=>"map", "lat"=>"59.92762470874761", "rad"=>"339.6712608199999"}
+  [4;36;1mSQL (0.000119)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000261)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:52:15.609768', '2008-07-23 22:52:15.609768', 10.4766654968262, 59.9276247087476, NULL, 1, 339.67126082)[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.002747)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02390 (41 reqs/sec) | Rendering: 0.00083 (3%) | DB: 0.00322 (13%) | 200 OK [http://localhost/map/create/59.92762470874761/10.476665496826172/339.6712608199999]
+
+
+Processing MapController#create (for 127.0.0.1 at 2008-07-24 00:52:25) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"create", "lng"=>"10.485913753509521", "controller"=>"map", "lat"=>"59.92278582038065", "rad"=>"49.521979999999985"}
+  [4;36;1mSQL (0.000110)[0m   [0;1mBEGIN[0m
+  [4;35;1mArea Create (0.000279)[0m   [0mINSERT INTO "areas" ("created_at", "updated_at", "area_point_lng", "area_point_lat", "area_enabled", "area_user_id", "area_point_rad") VALUES('2008-07-23 22:52:25.974722', '2008-07-23 22:52:25.974722', 10.4859137535095, 59.9227858203807, NULL, 1, 49.52198)[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mSELECT currval('areas_id_seq')[0m
+  [4;35;1mSQL (0.001290)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02177 (45 reqs/sec) | Rendering: 0.00075 (3%) | DB: 0.00181 (8%) | 200 OK [http://localhost/map/create/59.92278582038065/10.485913753509521/49.521979999999985]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:52:57) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"update", "id"=>"32", "lng"=>"10.484336614608765", "controller"=>"map", "lat"=>"59.92224812255498", "rad"=>"49.521979999999985"}
+  [4;36;1mArea Load (0.000533)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 32) [0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000389)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:52:57.267037', "area_point_lat" = 59.922248122555, "area_point_rad" = 49.52198, "area_point_lng" = 10.4843366146088 WHERE "id" = 32[0m
+  [4;35;1mSQL (0.007329)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.02415 (41 reqs/sec) | Rendering: 0.00076 (3%) | DB: 0.00836 (34%) | 200 OK [http://localhost/map/update/32/59.92224812255498/10.484336614608765/49.521979999999985]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:53:00) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"update", "id"=>"32", "lng"=>"10.484325885772705", "controller"=>"map", "lat"=>"59.92235566281715", "rad"=>"49.521979999999985"}
+  [4;36;1mArea Load (0.000322)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 32) [0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000393)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:53:00.982125', "area_point_lat" = 59.9223556628171, "area_point_rad" = 49.52198, "area_point_lng" = 10.4843258857727 WHERE "id" = 32[0m
+  [4;35;1mSQL (0.001424)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01837 (54 reqs/sec) | Rendering: 0.00080 (4%) | DB: 0.00225 (12%) | 200 OK [http://localhost/map/update/32/59.92235566281715/10.484325885772705/49.521979999999985]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:53:04) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhZAYXR0cmlidXRlc19j
+YWNoZXsAOhFAdXNlcmZyaWVuZHMwOhFAdXNlcmRldmljZXMwOhBAYXR0cmli
+dXRlc3sRIg91c2VyX2JpcnRoIg8wOS8wOC8xOTg0IhF1c2VyX3dlYnNpdGUi
+DGh0dHA6Ly8iD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMgMjI6MDI6MTkuNDk5
+Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAyOjE5LjQ5OTI3OSIP
+dXNlcl9hYm91dCIAIgdpZCIGMSIPdXNlcl9waG9uZSIAIg11c2VyX3NleCIG
+bSIOdXNlcl9uYW1lIhRTYW5kZXIgSm9oYW5zZW4iEnVzZXJfcGFzc3dvcmQi
+LTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRlODNlYjU1ZGEiD3Vz
+ZXJfZW1haWwiFnNhbmRlcm1Ab25saW5lLm5vIhJ1c2VyX3VzZXJuYW1lIgxz
+YW5kZXJtOg5AdXNlcm1zZ3MwOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--0980e280c95ddaf35d4f568ee6eb0ba74dec7a75
+  Parameters: {"action"=>"update", "id"=>"32", "lng"=>"10.484325885772705", "controller"=>"map", "lat"=>"59.92235566281715", "rad"=>"83.84199011553191"}
+  [4;36;1mArea Load (0.000324)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 32) [0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000378)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:53:04.585686', "area_point_lat" = 59.9223556628171, "area_point_rad" = 83.8419901155319, "area_point_lng" = 10.4843258857727 WHERE "id" = 32[0m
+  [4;35;1mSQL (0.003706)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01909 (52 reqs/sec) | Rendering: 0.00093 (4%) | DB: 0.00451 (23%) | 200 OK [http://localhost/map/update/32/59.92235566281715/10.484325885772705/83.84199011553191]
+
+
+Processing MapController#update (for 127.0.0.1 at 2008-07-24 00:53:41) [GET]
+  Session ID: BAh7CSIOcmV0dXJuLXRvMDoJdXNlcm86CVVzZXIOOhFAdXNlcmZyaWVuZHMw
+OhZAYXR0cmlidXRlc19jYWNoZXsAOhFAdXNlcmRldmljZXMwOg5AdXNlcm1z
+Z3MwOhBAYXR0cmlidXRlc3sRIhF1c2VyX3dlYnNpdGUiDGh0dHA6Ly8iD3Vz
+ZXJfYmlydGgiDzA5LzA4LzE5ODQiD2NyZWF0ZWRfYXQiHzIwMDgtMDctMjMg
+MjI6MDI6MTkuNDk5Mjc5Ig91cGRhdGVkX2F0Ih8yMDA4LTA3LTIzIDIyOjAy
+OjE5LjQ5OTI3OSIHaWQiBjEiD3VzZXJfYWJvdXQiACIPdXNlcl9waG9uZSIA
+Ig51c2VyX25hbWUiFFNhbmRlciBKb2hhbnNlbiINdXNlcl9zZXgiBm0iEnVz
+ZXJfcGFzc3dvcmQiLTAxNDE3ODcyN2IxYzczMWMzZjg3ODU4ODIzOWY2YmRl
+ODNlYjU1ZGEiEnVzZXJfdXNlcm5hbWUiDHNhbmRlcm0iD3VzZXJfZW1haWwi
+FnNhbmRlcm1Ab25saW5lLm5vOg5AdXNlcnRhZ3MwOhNAdXNlcnByaXZhY2ll
+czA6GEB1c2VyZGV2aWNlbXNndHlwZXMwOhNAdXNlcnF1aWV0dGltZTAiCmZs
+YXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6
+CkB1c2VkewA6DGNzcmZfaWQiJTVjOGQ4ZjA0OWNlOGVjZWQ3NTljODlmMjNh
+ZTUwZDdl--bc9dd77df147053b7a9465a51a0c071dca6f4f88
+  Parameters: {"action"=>"update", "id"=>"32", "lng"=>"10.485248565673828", "controller"=>"map", "lat"=>"59.922554611383354", "rad"=>"83.84199011553191"}
+  [4;36;1mArea Load (0.000336)[0m   [0;1mSELECT * FROM "areas" WHERE ("areas"."id" = 32) [0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mArea Update (0.000476)[0m   [0;1mUPDATE "areas" SET "updated_at" = '2008-07-23 22:53:41.566768', "area_point_lat" = 59.9225546113834, "area_point_rad" = 83.8419901155319, "area_point_lng" = 10.4852485656738 WHERE "id" = 32[0m
+  [4;35;1mSQL (0.002430)[0m   [0mCOMMIT[0m
+Rendering map/create.xml.builder
+Completed in 0.01813 (55 reqs/sec) | Rendering: 0.00083 (4%) | DB: 0.00335 (18%) | 200 OK [http://localhost/map/update/32/59.922554611383354/10.485248565673828/83.84199011553191]
