@@ -1,4 +1,22 @@
-HOWTO INSTALL THIS PROJECT (on debian)
+Howto install this project
+==========================
+
+0. Table of content
+-------------------
+   1.   Required software
+   1.1. Installing required software under Debian
+   1.2. Installing required software under Fedora Release 7 (Moonshine)
+   2,   Configure and execute this project
+
+1. Required software
+--------------------
+
+This section gives instructions for how to install required software
+for for this project on Debian and Fedora Release 7.
+
+
+1.1. Installing required software under Debian
+----------------------------------------------
 
 1. install ruby
 
@@ -45,30 +63,52 @@ apt-get install postgresql postgresql-client postgresql-client-common postgresql
 sudo aptitude install ruby1.8-dev libpq-dev
 POSTGRES_INCLUDE=/usr/include/postgresql sudo gem install postgres
 
-9. configure postgresql
-
-su - postgresql
-
-createuser yourusername
-
-su - yourusername
-createdb messagemap_dev
-createdb messagemap_test
-createdb messagemap_prod
-
-10. edit the database settings
-
-edit config/database.yml
-and add postgresql username
-
-11. insert data into db
-
-rake db:migrate
-
-12. start the ruby http server
-
-ruby script/server
 
 13. remove the welcome message
 
 rm public/index.html
+
+
+1.2. Installing required software under Fedora Release 7 (Moonshine)
+--------------------------------------------------------------------
+
+Install required software as root as follows:
+
+  # yum install ruby ruby-libs ruby-devel ruby-irb \
+                ruby-rdoc rubygems rubygem-rake
+  # yum install postgresql-docs postgresql-devel \
+                postgresql postgresql-libs postgresql-server
+
+  # gem install postgres-pr
+  # gem install composite_primary_keys
+  # gem install -v=2.1.0 rails
+
+  # POSTGRES_INCLUDE=/usr/include/postgresql gem install postgres
+
+
+2, Configure and execute this project
+-------------------------------------
+
+Initialize and start the postgresql as follows (FC7):
+
+  # /etc/init.d/postgresql initdb
+  # /etc/init.d/postgresql start
+
+Create a user for the messagemap servise:
+
+  # /usr/sbin/useradd msgmap
+  # sudo -u postgres createuser msgmap
+
+Create the needed databases:
+
+  # sudo -u msgmap createdb messagemap_dev
+  # sudo -u msgmap createdb messagemap_test
+  # sudo -u msgmap createdb messagemap_prod
+
+insert data into db
+
+  # sudo -u msgmap rake db:migrate
+
+Start the Ruby http server:
+
+  # sudo -u msgmap ruby script/server
