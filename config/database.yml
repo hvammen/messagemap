@@ -1,7 +1,7 @@
 defaults: &defaults
   adapter: postgresql
   encoding: utf8
-  username: sander
+  username: msgmap
   timeout: 5000
   
 development:
